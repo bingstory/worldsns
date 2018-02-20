@@ -1,0 +1,71 @@
+			.table_container{
+				margin:0 auto;
+				height:auto;
+				overflow:auto;
+			}			
+			table.tab {
+				width:100%;
+				min-width:900px;
+                                border-collapse: collapse;
+				empty-cells: show;
+				font-size:14px;
+			}
+			table.tab th {
+				background: linear-gradient(top, #FDFDFD, #E8E8E8);
+				background: -webkit-linear-gradient(top, #FDFDFD, #E8E8E8);
+				background: -moz-linear-gradient(top, #FDFDFD, #E8E8E8);
+			}
+			table.tab td,
+			table.tab th {
+				border: 1px solid #ccc;
+				padding: 3px 10px;
+				height: 30px;
+				white-space: nowrap;
+				text-align: center;
+			}
+			table.tab a {
+				display: inline-block;
+				margin-left: 5px;
+				display: inline;
+				padding: 3px 5px;
+				font-size: 12px;
+				border-radius: 3px;
+				background: red;
+				color: #fff;
+			}
+			table.tab a.modify {
+				background: #4B4B4B
+			}
+			
+			.div_input {
+				width: 500px;
+				height: 35px;
+				margin: 20px auto;
+			}
+			.mini_container h2 {
+				margin-top: 20px;
+			}
+			.div_input label {
+				width: 80px;
+				height: 35px;
+				line-height: 35px;
+				float: left;
+				text-align: right;
+			}
+			.div_input input {
+				display: inline-block;
+				width: 400px;
+				height: 35px;
+				line-height: 35px;
+				border: 1px solid #ccc;
+				float: left;
+				margin-left: 10px;
+				display: inline;
+			}
+			table.tab a.forbidden{
+				background:#0066cc ;
+			}
+			table.tab input[type=text]{
+				border:0 none;
+			}
+                        

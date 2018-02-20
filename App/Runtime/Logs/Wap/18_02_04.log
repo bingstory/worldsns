@@ -1,0 +1,555 @@
+[ 2018-02-04T20:08:21+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2018-02-04T20:17:01+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index&nsukey=%2BeVaOPTqrA7Pif%2Fnmr%2BkHuJOZo5FUsE%2F1bMm13X4Si9ZnBUPJBT0k8TBpuWR75kCbEe91TTRD6wHbampG2ZoPabw2yqmjbsBoj4%2FgAjXV39LvQZuqih%2FBOhmmDHbj9HZbIBobh9MM1ik7%2BYAl8crCsvGbIARDLgXzrTvmU0o%2BYQVKAxx5aVRQ8sFq1ZY4XfMlPlkWToFttPKaFSoix%2F1Pw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000740s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000831s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2018-02-04T20:17:14+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index&nsukey=%2BeVaOPTqrA7Pif%2Fnmr%2BkHuJOZo5FUsE%2F1bMm13X4Si9ZnBUPJBT0k8TBpuWR75kCbEe91TTRD6wHbampG2ZoPabw2yqmjbsBoj4%2FgAjXV39LvQZuqih%2FBOhmmDHbj9HZbIBobh9MM1ik7%2BYAl8crCsvGbIARDLgXzrTvmU0o%2BYQVKAxx5aVRQ8sFq1ZY4XfMlPlkWToFttPKaFSoix%2F1Pw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000761s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000857s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2018-02-04T20:17:56+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pwd`,`username`,`verify_status` FROM `user` WHERE ( (email = '米粒' or username = '米粒') and status = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-02-04T20:18:24+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`pwd`,`username`,`verify_status` FROM `user` WHERE ( (email = '米粒' or username = '米粒') and status = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `is_online`='1',`last_time`='1517746704' WHERE `id` = 1490 AND `is_visible` = 1 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: last_time /www/wwwroot/1107.tech/App/Wap/Controller/IndexController.class.php 第 34 行.
+
+[ 2018-02-04T20:18:39+08:00 ] 211.149.153.12 /?m=wap&nsukey=0qju4mdw1urJz2El9E0Qz6qFZgN%2F4dF8GQuNyO8yUrP6jG04MGGrKW%2BPDMv5I4jDOc1x8mAlrG473MxIEO6rdJ5y78%2Bpui%2FB9POXKD5gGLgFCm2SrswI7%2BhcSlVw5ICtAROpf9sSDU5hWfRHorpiwlzY44m5YWipYPbAYklaKKB6xu9OuFGJZVlpUhqzcRq0Lonu8iQG7lbKwmQ7Vr4fLw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002298s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE ( id=1490 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_like` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` WHERE `target_id` = 1490 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_gift` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_gift` WHERE `reciver_id` = 1490 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `visitors` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `visitors` WHERE `target_id` = 1490 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `gift_cate` [ RunTime:0.0006s ]
+SQL: SELECT `id`,name_zhcn as name FROM `gift_cate` WHERE `type` = 'virtual'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000883s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000963s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2018-02-04T20:19:27+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000783s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000875s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+
+[ 2018-02-04T20:20:31+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pwd`,`username`,`verify_status` FROM `user` WHERE ( (email = '贝拉' or username = '贝拉') and status = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `is_online`='1',`last_time`='1517746831' WHERE `id` = 1463 AND `is_visible` = 1 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: last_time /www/wwwroot/1107.tech/App/Wap/Controller/IndexController.class.php 第 34 行.
+
+[ 2018-02-04T20:20:34+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`pwd`,`username`,`verify_status` FROM `user` WHERE ( (email = '贝拉' or username = '贝拉') and status = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `is_online`='1',`last_time`='1517746834' WHERE `id` = 1463 AND `is_visible` = 1 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: last_time /www/wwwroot/1107.tech/App/Wap/Controller/IndexController.class.php 第 34 行.
+
+[ 2018-02-04T20:20:34+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`pwd`,`username`,`verify_status` FROM `user` WHERE ( (email = '贝拉' or username = '贝拉') and status = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `is_online`='1',`last_time`='1517746834' WHERE `id` = 1463 AND `is_visible` = 1 [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: last_time /www/wwwroot/1107.tech/App/Wap/Controller/IndexController.class.php 第 34 行.
+
+[ 2018-02-04T20:20:34+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`pwd`,`username`,`verify_status` FROM `user` WHERE ( (email = '贝拉' or username = '贝拉') and status = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `is_online`='1',`last_time`='1517746834' WHERE `id` = 1463 AND `is_visible` = 1 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: last_time /www/wwwroot/1107.tech/App/Wap/Controller/IndexController.class.php 第 34 行.
+
+[ 2018-02-04T20:20:35+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`pwd`,`username`,`verify_status` FROM `user` WHERE ( (email = '贝拉' or username = '贝拉') and status = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `user` SET `is_online`='1',`last_time`='1517746835' WHERE `id` = 1463 AND `is_visible` = 1 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: last_time /www/wwwroot/1107.tech/App/Wap/Controller/IndexController.class.php 第 34 行.
+
+[ 2018-02-04T20:20:38+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pwd`,`username`,`verify_status` FROM `user` WHERE ( (email = '贝拉' or username = '贝拉') and status = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user` SET `is_online`='1',`last_time`='1517746838' WHERE `id` = 1463 AND `is_visible` = 1 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: last_time /www/wwwroot/1107.tech/App/Wap/Controller/IndexController.class.php 第 34 行.
+
+[ 2018-02-04T20:20:43+08:00 ] 211.149.153.14 /?m=wap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( id=1463 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_like` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_gift` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_gift` WHERE `reciver_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `visitors` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `visitors` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `gift_cate` [ RunTime:0.0006s ]
+SQL: SELECT `id`,name_zhcn as name FROM `gift_cate` WHERE `type` = 'virtual'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2018-02-04T20:20:55+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Birthday&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000598s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2018-02-04T20:21:18+08:00 ] 211.149.153.13 /?m=wap
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `user` WHERE ( id=1463 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_like` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_gift` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_gift` WHERE `reciver_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `visitors` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `visitors` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `gift_cate` [ RunTime:0.0008s ]
+SQL: SELECT `id`,name_zhcn as name FROM `gift_cate` WHERE `type` = 'virtual'  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2018-02-04T20:21:22+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Birthday&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000701s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000786s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2018-02-04T20:21:25+08:00 ] 211.149.153.14 /index.php?m=wap&c=Home&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE ( id=1463 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_like` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_gift` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_gift` WHERE `reciver_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `visitors` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `visitors` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( user.id=1463 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username` FROM `user` WHERE ( is_service = 1 )  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `album` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `album` WHERE ( user_id = 1463 or user_id = 0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url`,`album` FROM `photo` WHERE `album` = 1 AND `user_id` = 1463  [ RunTime:0.0011s ]
+SQL: SELECT `id`,`url`,`album` FROM `photo` WHERE `album` = 2 AND `user_id` = 1463  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `spot_record` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT spot_record.*,user.id as id,user.username as username,user.header as header,user.sex as sex FROM `spot_record` INNER JOIN user on user.id = spot_record.user_id  ORDER BY spot_record.created desc LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_gift` WHERE `is_read` = 0 AND `reciver_id` = 1463 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `visitors` WHERE `is_read` = 0 AND `target_id` = 1463 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` WHERE `is_read` = 0 AND `target_id` = 1463 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `price_spot`,`price_google`,`price_human` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_sticker` [ RunTime:0.0005s ]
+SQL: SELECT user_sticker.*,sticker.name_zhcn as stickername,sticker.img as stickerimg FROM `user_sticker` INNER JOIN sticker on sticker.id = user_sticker.sticker_id  WHERE ( user_sticker.user_id=1463 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sticker_detail` [ RunTime:0.0006s ]
+
+[ 2018-02-04T20:21:25+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Home&a=getWall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `user` WHERE ( id=1463 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_like` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_gift` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_gift` WHERE `reciver_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `visitors` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `visitors` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `spot_record` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT spot_record.*,user.id as id,user.username as username,user.header as header,user.sex as sex FROM `spot_record` INNER JOIN user on user.id = spot_record.user_id  ORDER BY spot_record.created desc LIMIT 0,20   [ RunTime:0.0002s ]
+
+[ 2018-02-04T20:21:25+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Home&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `user` WHERE ( id=1463 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_like` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_gift` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_gift` WHERE `reciver_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `visitors` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `visitors` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sex` FROM `user` WHERE ( id=1463 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`username`,`header`,`sex`,`year`,`month`,`day`,country_zhcn as country,`city`,`level`,`mood`,`is_member`,`deadline`,`is_online`,`inner_member` FROM `user` WHERE `sex` = 'male' ORDER BY is_online desc,header desc LIMIT 0,20   [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1308 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1513 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1867 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=257 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1823 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1815 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1813 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1791 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1782 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1838 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1780 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1748 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-02-04T20:21:46+08:00 ] 211.149.153.12 /index.php?m=wap&c=Home&a=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE ( id=1463 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_like` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_gift` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_gift` WHERE `reciver_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `visitors` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `visitors` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE ( user.id=1463 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username` FROM `user` WHERE ( is_service = 1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `album` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `album` WHERE ( user_id = 1463 or user_id = 0 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `photo` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url`,`album` FROM `photo` WHERE `album` = 1 AND `user_id` = 1463  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`url`,`album` FROM `photo` WHERE `album` = 2 AND `user_id` = 1463  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `spot_record` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT spot_record.*,user.id as id,user.username as username,user.header as header,user.sex as sex FROM `spot_record` INNER JOIN user on user.id = spot_record.user_id  ORDER BY spot_record.created desc LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_gift` WHERE `is_read` = 0 AND `reciver_id` = 1463 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `visitors` WHERE `is_read` = 0 AND `target_id` = 1463 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` WHERE `is_read` = 0 AND `target_id` = 1463 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `price_spot`,`price_google`,`price_human` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_sticker` [ RunTime:0.0004s ]
+SQL: SELECT user_sticker.*,sticker.name_zhcn as stickername,sticker.img as stickerimg FROM `user_sticker` INNER JOIN sticker on sticker.id = user_sticker.sticker_id  WHERE ( user_sticker.user_id=1463 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sticker_detail` [ RunTime:0.0004s ]
+
+[ 2018-02-04T20:21:46+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Home&a=getWall
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( id=1463 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_like` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_gift` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_gift` WHERE `reciver_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `visitors` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `visitors` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `spot_record` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT spot_record.*,user.id as id,user.username as username,user.header as header,user.sex as sex FROM `spot_record` INNER JOIN user on user.id = spot_record.user_id  ORDER BY spot_record.created desc LIMIT 0,20   [ RunTime:0.0001s ]
+
+[ 2018-02-04T20:21:46+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Home&a=recommend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `user` WHERE ( id=1463 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `web_conf` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_like` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_like` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user_gift` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_gift` WHERE `reciver_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `visitors` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `visitors` WHERE `target_id` = 1463 AND `is_read` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `sex` FROM `user` WHERE ( id=1463 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`username`,`header`,`sex`,`year`,`month`,`day`,country_zhcn as country,`city`,`level`,`mood`,`is_member`,`deadline`,`is_online`,`inner_member` FROM `user` WHERE `sex` = 'male' ORDER BY is_online desc,header desc LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `broadcast` [ RunTime:0.0005s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1308 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1513 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1867 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=257 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1823 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1815 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1813 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1791 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1782 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1838 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1780 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `content` FROM `broadcast` WHERE ( id=1748 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-04T21:01:35+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000758s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000839s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001552s ]
+
+[ 2018-02-04T21:02:27+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000789s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000877s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+

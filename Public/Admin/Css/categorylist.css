@@ -1,0 +1,334 @@
+
+.wrap_main {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 30px 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: 'Microsoft Yahei', 'Arial';
+    position: relative;
+}
+
+.wrap_main .title {
+    width: 900px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+small {
+    color: #666;
+    font-family: Arial;
+    padding-left: 50px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+i {
+    color: #666;
+    font-family: Arial;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.main_input_container, .dialog_container {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.main_input_half,.dialog_container_half{
+    margin-top: 30px;
+    float: left;
+    width: auto;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.main_input_container > label, .dialog_container > label {
+    display: block;
+    width: auto;
+    min-height: 35px;
+    height: auto;
+    line-height: 35px;
+    padding: 0 20px 0 0;
+}
+
+.main_input_container input[type=text], .dialog_container input[type=text] {
+    display: inline-block;
+    width: 90%;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 20px;
+    border: 0 none;
+    font-size: 16px;
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #e3e3e3 inset;
+}
+
+.main_input_container input[type=file] {
+    display: inline-block;
+    width: 90%;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 20px;
+    border: 0 none;
+    font-size: 10px;
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #e3e3e3 inset;
+}
+
+.main_input_container input[type=submit] {
+    display: inline-block;
+    float: right;
+    width: 30%;
+    height: 35px;
+    line-height: 35px;
+    border: 0 none;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #00f;
+    cursor: pointer;
+}
+
+.main_input_container input[type=reset] {
+    display: inline-block;
+    float: right;
+    width: 10%;
+    height: 35px;
+    line-height: 35px;
+    border: 0 none;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #F18500;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.main_input_container input[type=button] {
+    display: inline-block;
+    float: right;
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    border: 0 none;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #F18500;
+    cursor: pointer;
+    margin-right: 25px;
+}
+.dialog_container input[type=button] {
+    display: inline-block;
+    float: right;
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    border: 0 none;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #F18500;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.main_input_container textarea {
+    display: inline-block;
+    float: left;
+    max-width: 100%;
+    width: 100%;
+    height: 110px;
+    line-height: 35px;
+    border: 0 none;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #F18500;
+    cursor: text;
+    margin-right: 25px;
+}
+
+.main_input_container label span {
+    background: red;
+    color: #fff;
+}
+
+.cate_container {
+    width: 880px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px 10px;
+    background: #eee;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.cate {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    text-align: left;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.cate1, .cate2, .cate3 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.cate label {
+    display: inline-block;
+    width: 110px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    white-space: normal;
+    word-break: break-all;
+    color: #fff;
+    box-shadow: 0 1px 5px #fff inset;
+    cursor: pointer;
+}
+
+.cate1 label {
+    background: blue;
+    font-size: 14px;
+}
+
+.cate2 label {
+    background: #F18500;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.cate3 label {
+    background: #FFC200;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.cate2 {
+    margin-left: 25px;
+}
+
+.cate3 {
+    margin-left: 50px;
+}
+
+div#preview {
+    width: 345px;
+    height: 210px;
+    margin-left: 430px;
+    margin-top: 52px;
+    overflow: hidden;
+}
+
+div#maskpreview {
+    width: 345px;
+    height: 210px;
+    margin-top: 52px;
+    overflow: hidden;
+}
+
+#imghead {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+    display: block;
+    box-shadow: -10px 10px 250px #000;
+}
+
+.img_upload_bg {
+    width: 810px;
+    height: 390px;
+    margin-top: 35px;
+    background: url(../images/mac.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.check_radio_bed {
+    width: 810px;
+    height: auto;
+}
+
+.check_radio_bed div {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.check_radio_bed div label {
+    display: inline-block;
+    width: 110px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    white-space: normal;
+    word-break: break-all;
+    color: #fff;
+    box-shadow: 0 1px 5px #fff inset;
+    cursor: pointer;
+    background: #F18500;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.wrap_main .goback {
+    display: inline-block;
+    width: 20px;
+    padding: 5px 3px;
+    height: auto;
+    font-size: 16px;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    text-decoration: none;
+    color: #fff;
+    background: blue;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px #fff inset, -1px 1px 3px #000;
+}
+
+.dialog_container button {
+    width: 80px;
+    height: 32px;
+    background: #0066CC;
+    border: 0 none;
+    border-radius: 3px;
+    outline: none;
+    margin-left: 3px;
+    color: #fff;
+    font-size: 14px;
+}
+.main_input_container div.preview_container {
+    width: 155px;
+    float: left;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 6px;
+    *display: inline;
+    overflow: hidden;
+}
+
+div.sub_preview {
+    width: 155px;
+    height: 180px;
+}
+

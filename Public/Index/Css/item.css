@@ -1,0 +1,171 @@
+/* CSS Document */
+ul {
+    float: left;
+    margin: 0;
+    padding: 0 15px;
+    line-height: 30px;
+}
+
+li {
+    overflow: hidden;
+    list-style: none;
+    max-width: 450px;
+}
+
+.item {
+    padding: 10px;
+    margin-top: -1px;
+    overflow: hidden;
+    border-top: 1px solid #E9E9E9;
+}
+
+.item_icon {
+    height: 60px;
+    width: 60px;
+    float: left;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.item_name {
+    cursor: pointer;
+    float: left;
+}
+
+.item_mutual {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-left: 20px;
+    /*background: url("../Images/shoucang.png") no-repeat 0 -34px;*/
+}
+
+.item_life {
+    width: 20px;
+    font-size: 25pt;
+    font-weight: bolder;
+    color: #a9a9a9;
+    text-align: center;
+    float: left;
+}
+
+.item_life_active {
+    color: limegreen;
+}
+
+.item_btn {
+    cursor: pointer;
+    border: 1px solid #E9E9E9;
+    float: right;
+    line-height: 28px;
+    height: 28px;
+    text-align: center;
+    background-image: -moz-linear-gradient(bottom, #ebebeb, #FAFAFA);
+    background-image: -webkit-linear-gradient(bottom, #ebebeb, #FAFAFA);
+    background-image: -ms-linear-gradient(bottom, #ebebeb, #FAFAFA);
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr="#FAFAFA", EndColorStr="#ebebeb");
+}
+
+.item_btn:hover {
+    background-image: -moz-linear-gradient(bottom, #FAFAFA, #E4E4E4); /*firefox*/
+    background-image: -webkit-linear-gradient(bottom, #FAFAFA, #E4E4E4); /*chrome*/
+    background-image: -ms-linear-gradient(bottom, #FAFAFA, #E4E4E4); /*IE10+*/
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr="#E4E4E4", EndColorStr="#FAFAFA"); /*ie6-9*/
+}
+
+.item_btn_left {
+    padding: 0 10px;
+    border-right: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.item_btn_right {
+    padding: 0 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.item_btn_inner {
+    /*width: 120px;*/
+    text-indent: 20px;
+    cursor: pointer;
+    outline-style: none;
+    background: url("../Images/icon_0.png") no-repeat;
+}
+
+.item_menu {
+    margin-left: -77px;
+    /*padding-top: 10px; 原来 */
+	padding-top:30px;
+    position: absolute;
+    right: 5px;
+    text-align: left;
+    min-width: 120px;
+}
+
+.item_menu_arrow {
+    height: 9px;
+    width: 20px;
+    position: absolute;
+    margin-top: -9px;
+    right: 16px;
+    display: inline-block;
+    background: url('../Images/icon_0.png') no-repeat scroll -80px -317px;
+}
+
+.item_menu_item {
+    border: 1px solid #E9E9E9;
+    cursor: pointer;
+    margin-top: -1px;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+.item_menu_item:hover .item_menu_wrp {
+    background-color: #F0F0F0;
+}
+
+.item_menu_wrp {
+    padding: 0 3px;
+    margin: 3px;
+}
+
+.item_menu_text {
+
+}
+
+.item_btn_img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-top: -1px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url("../Images/icon_0.png") no-repeat;
+}
+
+.item_btn_more {
+    background-position: -317px -1px;
+}
+
+.item_btn_chat {
+    background-position: -177px -123px;
+}
+
+.item_chat_blue {
+    background-position: -114px -123px;
+}
+
+.item_btn_gift {
+    background-position: -144px -123px;
+}
+
+.item_btn_gift_blue {
+    background-position: -83px -123px;
+}
+
+.item_btn_remove {
+    background-position: -206px -123px;
+}
+

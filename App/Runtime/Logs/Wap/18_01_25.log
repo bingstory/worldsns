@@ -1,0 +1,547 @@
+[ 2018-01-25T10:03:28+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000742s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000843s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2018-01-25T14:26:56+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000859s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000966s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-01-25T14:26:59+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index&nsukey=gykUMNu8BKgbBeeatmPcNF9kW%2F22IkQp%2BwA3YqM7DenlOtcnn37oDhemvfBHXLwWNts8mCHAbVA3Ty55wrcf0i6Hp4hbJ4Hxj4pyMU8LMBTMOOMwKu%2FSxYzO8YKMAztPyLy2PmzEYPsmXHXAtFSGjr0PVF9mdwkFxz6%2FUFZGJMOjp2v%2BDikvYpnX2ENIdtl8VyuWKY8h%2BTvqZLVQOeRofQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000893s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2018-01-25T14:27:00+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=index&nsukey=gykUMNu8BKgbBeeatmPcNF9kW%2F22IkQp%2BwA3YqM7DenlOtcnn37oDhemvfBHXLwWNts8mCHAbVA3Ty55wrcf0i6Hp4hbJ4Hxj4pyMU8LMBTMOOMwKu%2FSxYzO8YKMAztPyLy2PmzEYPsmXHXAtFSGjr0PVF9mdwkFxz6%2FUFZGJMOjp2v%2BDikvYpnX2ENIdtl8VyuWKY8h%2BTvqZLVQOeRofQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000821s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000918s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2018-01-25T14:27:01+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=index&nsukey=gykUMNu8BKgbBeeatmPcNF9kW%2F22IkQp%2BwA3YqM7DenlOtcnn37oDhemvfBHXLwWNts8mCHAbVA3Ty55wrcf0i6Hp4hbJ4Hxj4pyMU8LMBTMOOMwKu%2FSxYzO8YKMAztPyLy2PmzEYPsmXHXAtFSGjr0PVF9mdwkFxz6%2FUFZGJMOjp2v%2BDikvYpnX2ENIdtl8VyuWKY8h%2BTvqZLVQOeRofQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000885s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000992s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2018-01-25T14:27:26+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`pwd`,`username`,`verify_status` FROM `user` WHERE ( (email = '2063451168@qq.com' or username = '2063451168@qq.com') and status = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-01-25T14:27:37+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`pwd`,`username`,`verify_status` FROM `user` WHERE ( (email = '2063451168@qq.com' or username = '2063451168@qq.com') and status = 1 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-01-25T14:27:58+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=index&nsukey=gykUMNu8BKgbBeeatmPcNF9kW%2F22IkQp%2BwA3YqM7DenlOtcnn37oDhemvfBHXLwWNts8mCHAbVA3Ty55wrcf0i6Hp4hbJ4Hxj4pyMU8LMBTMOOMwKu%2FSxYzO8YKMAztPyLy2PmzEYPsmXHXAtFSGjr0PVF9mdwkFxz6%2FUFZGJMOjp2v%2BDikvYpnX2ENIdtl8VyuWKY8h%2BTvqZLVQOeRofQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000790s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000888s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2018-01-25T14:27:58+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=index&nsukey=gykUMNu8BKgbBeeatmPcNF9kW%2F22IkQp%2BwA3YqM7DenlOtcnn37oDhemvfBHXLwWNts8mCHAbVA3Ty55wrcf0i6Hp4hbJ4Hxj4pyMU8LMBTMOOMwKu%2FSxYzO8YKMAztPyLy2PmzEYPsmXHXAtFSGjr0PVF9mdwkFxz6%2FUFZGJMOjp2v%2BDikvYpnX2ENIdtl8VyuWKY8h%2BTvqZLVQOeRofQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000745s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000830s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2018-01-25T14:28:50+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0020s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861727','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861727','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:29:07+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0018s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861744','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861744','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:29:43+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0014s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861772','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861772','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:29:45+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0020s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861783','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861783','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:29:48+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0016s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861785','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861785','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:30:05+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0013s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861788','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861788','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:30:09+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002389s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0013s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861805','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861805','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:30:12+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0020s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861809','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861809','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:30:14+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0014s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861812','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861812','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:30:17+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0017s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861814','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861814','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:30:19+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0017s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861817','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861817','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:30:21+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0042s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861819','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861819','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:30:23+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0014s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0014s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861821','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861821','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:30:51+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0010s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861823','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861823','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:30:54+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002474s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `user` WHERE ( email='2063451167@qq.com' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0012s ]
+SQL: SELECT `female_reg` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861851','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+ERR: 1062:Duplicate entry '' for key 'username'
+ [ SQL语句 ] : INSERT INTO `user` (`username`,`pwd`,`email`,`year`,`month`,`day`,`sex`,`country_zhcn`,`reg_ip`,`terminal`,`city`,`created`,`country_zhtw`,`country_de`,`country_enus`,`country_fra`,`country_it`,`country_ja`,`country_kokr`,`country_nl`,`country_pt`,`country_ru`,`country_es`,`verify_status`) VALUES ('','ee3715c0f60da04fe1ae7124e90e3894','2063451167@qq.com','1993','1','25','female','中国','58.49.243.142','WAP','武汉市','1516861851','中國','China','China','Chine','La Cina','中国','중국','China','China','китай','China','1')
+
+[ 2018-01-25T14:31:07+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=index&nsukey=uiAG%2FzEZLVR82ev1Jxj3P8O7W734cYQcqvF3h9%2FPsRV4BzQMJ4aewVrrzUlNHnnJXRgXWlDU9a0wDs9SyxeBl9NtXiAV%2FDwkODUiuyVKwsFeFZrCueEq58lrHsrRH0wZSEFcx2sQeWe3cRiumJ7uhLN82UDjLaUAmHKFRE1TVDrtHRCXF%2BDDbz01xhYLUrMk7MJGlALHGyNjUG9bXAqIlQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001006s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2018-01-25T14:31:07+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=index&nsukey=uiAG%2FzEZLVR82ev1Jxj3P8O7W734cYQcqvF3h9%2FPsRV4BzQMJ4aewVrrzUlNHnnJXRgXWlDU9a0wDs9SyxeBl9NtXiAV%2FDwkODUiuyVKwsFeFZrCueEq58lrHsrRH0wZSEFcx2sQeWe3cRiumJ7uhLN82UDjLaUAmHKFRE1TVDrtHRCXF%2BDDbz01xhYLUrMk7MJGlALHGyNjUG9bXAqIlQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000952s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2018-01-25T14:31:08+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=index&nsukey=uiAG%2FzEZLVR82ev1Jxj3P8O7W734cYQcqvF3h9%2FPsRV4BzQMJ4aewVrrzUlNHnnJXRgXWlDU9a0wDs9SyxeBl9NtXiAV%2FDwkODUiuyVKwsFeFZrCueEq58lrHsrRH0wZSEFcx2sQeWe3cRiumJ7uhLN82UDjLaUAmHKFRE1TVDrtHRCXF%2BDDbz01xhYLUrMk7MJGlALHGyNjUG9bXAqIlQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000769s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000858s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2018-01-25T14:32:06+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index&nsukey=uiAG%2FzEZLVR82ev1Jxj3P8O7W734cYQcqvF3h9%2FPsRV4BzQMJ4aewVrrzUlNHnnJXRgXWlDU9a0wDs9SyxeBl9NtXiAV%2FDwkODUiuyVKwsFeFZrCueEq58lrHsrRH0wZSEFcx2sQeWe3cRiumJ7uhLN82UDjLaUAmHKFRE1TVDrtHRCXF%2BDDbz01xhYLUrMk7MJGlALHGyNjUG9bXAqIlQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000761s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000855s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003887s ]
+
+[ 2018-01-25T15:26:53+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000771s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000877s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2018-01-25T20:07:41+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002967s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000829s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000920s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001927s ]
+

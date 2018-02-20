@@ -1,0 +1,58 @@
+@charset:"utf-8";/* CSS Document */
+@import "public.css";
+
+body {
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.panel {
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: left;
+}
+
+.caption {
+    font-size: 20px;
+    text-align: center
+}
+
+.wrap {
+    font-size: 15px;
+}
+
+.txt {
+    text-indent: 30px;
+}
+
+.bar {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.btn {
+    min-width: 130px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #1bc13a;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #1AA734;
+}
+
+.btn_red {
+    margin-left: 60px;
+    background-color: #ff5a3f;
+}
+
+.btn_red:hover {
+    background-color: #d44d35;
+}
+
+

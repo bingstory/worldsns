@@ -1,0 +1,142 @@
+2016-09-26 18:36:06 pid:2136 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] start in DEBUG mode
+2016-09-26 18:37:28 pid:2136 Workerman[start.php] Stopping ...
+2016-09-26 18:37:28 pid:2136 Workerman[start.php] has been stopped
+2016-09-26 18:37:29 pid:2164 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] start in DEBUG mode
+2016-09-27 09:03:40 pid:7853 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] start in DEBUG mode
+2016-09-27 09:05:12 pid:7853 Workerman[start.php] Stopping ...
+2016-09-27 09:05:12 pid:7853 Workerman[start.php] has been stopped
+2016-09-27 09:10:26 pid:8107 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] start in DEBUG mode
+2016-09-27 09:12:10 pid:8107 Workerman[start.php] Stopping ...
+2016-09-27 09:12:10 pid:8107 Workerman[start.php] has been stopped
+2016-09-27 09:12:15 pid:8139 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] start in DAEMON mode
+2016-09-27 09:51:23 pid:8145 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php:1720
+Stack trace:
+#0 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php(1720): PDO->prepare('UPDATE `chat_re...')
+#1 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php(1808): GatewayWorker\Lib\DbConnection->execute('UPDATE `chat_re...', Array)
+#2 /www/web/vivimeet_com/public_html/GWLinux/Applications/Chat/Events.php(169): GatewayWorker\Lib\DbConnection->query()
+#3 [internal function]: Events::onMessage('7f0000010b56000...', '{"address":"113...')
+#4 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/BusinessWorker.php(361): call_user_func('Events::onMessa...', '7f0000010b56000...', '{"address":"113...')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Connection/TcpConnection.php(430): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #50, 2, NULL)
+#8 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Events/Libevent.php(202): event_base_loop(Resource id #31)
+#9 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(1472): Workerman\Events\Libevent->loop()
+#10 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/BusinessWorker.php(175): Workerman\Worker->run()
+#11 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(900): GatewayWorker\BusinessWorker->run()
+#12 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(866): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#13 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(422): Workerman\Worker::forkWorkers()
+#14 /www/web/vivimeet_com/public_html/GWLinux/start.php(33): Workerman\Worker::runAll()
+#15 {main}
+2016-09-27 09:51:23 pid:8145 WORKER EXIT UNEXPECTED 
+2016-09-27 09:51:23 pid:8141 worker[ChatWorker:8145] exit with status 64000
+2016-09-27 19:32:45 pid:8677 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND sender_id =' at line 1' in /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php:1720
+Stack trace:
+#0 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php(1720): PDO->prepare('UPDATE `chat_re...')
+#1 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php(1808): GatewayWorker\Lib\DbConnection->execute('UPDATE `chat_re...', Array)
+#2 /www/web/vivimeet_com/public_html/GWLinux/Applications/Chat/Events.php(169): GatewayWorker\Lib\DbConnection->query()
+#3 [internal function]: Events::onMessage('7f0000010b54000...', 'PING')
+#4 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/BusinessWorker.php(361): call_user_func('Events::onMessa...', '7f0000010b54000...', 'PING')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Connection/TcpConnection.php(430): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #53, 2, NULL)
+#8 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Events/Libevent.php(202): event_base_loop(Resource id #32)
+#9 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(1472): Workerman\Events\Libevent->loop()
+#10 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/BusinessWorker.php(175): Workerman\Worker->run()
+#11 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(900): GatewayWorker\BusinessWorker->run()
+#12 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(866): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#13 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(1018): Workerman\Worker::forkWorkers()
+#14 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(425): Workerman\Worker::monitorWorkers()
+#15 /www/web/vivimeet_com/public_html/GWLinux/start.php(33): Workerman\Worker::runAll()
+#16 {main}
+2016-09-27 19:32:45 pid:8677 WORKER EXIT UNEXPECTED 
+2016-09-27 19:32:45 pid:8141 worker[ChatWorker:8677] exit with status 64000
+2016-09-27 21:35:33 pid:8143 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND sender_id =' at line 1' in /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php:1720
+Stack trace:
+#0 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php(1720): PDO->prepare('UPDATE `chat_re...')
+#1 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php(1808): GatewayWorker\Lib\DbConnection->execute('UPDATE `chat_re...', Array)
+#2 /www/web/vivimeet_com/public_html/GWLinux/Applications/Chat/Events.php(169): GatewayWorker\Lib\DbConnection->query()
+#3 [internal function]: Events::onMessage('7f0000010b55000...', 'PING')
+#4 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/BusinessWorker.php(361): call_user_func('Events::onMessa...', '7f0000010b55000...', 'PING')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Connection/TcpConnection.php(430): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #46, 2, NULL)
+#8 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Events/Libevent.php(202): event_base_loop(Resource id #31)
+#9 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(1472): Workerman\Events\Libevent->loop()
+#10 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/BusinessWorker.php(175): Workerman\Worker->run()
+#11 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(900): GatewayWorker\BusinessWorker->run()
+#12 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(866): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#13 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(422): Workerman\Worker::forkWorkers()
+#14 /www/web/vivimeet_com/public_html/GWLinux/start.php(33): Workerman\Worker::runAll()
+#15 {main}
+2016-09-27 21:35:33 pid:8143 WORKER EXIT UNEXPECTED 
+2016-09-27 21:35:33 pid:8141 worker[ChatWorker:8143] exit with status 64000
+2016-09-28 07:32:48 pid:12677 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND sender_id =' at line 1' in /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php:1720
+Stack trace:
+#0 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php(1720): PDO->prepare('UPDATE `chat_re...')
+#1 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php(1808): GatewayWorker\Lib\DbConnection->execute('UPDATE `chat_re...', Array)
+#2 /www/web/vivimeet_com/public_html/GWLinux/Applications/Chat/Events.php(169): GatewayWorker\Lib\DbConnection->query()
+#3 [internal function]: Events::onMessage('7f0000010b54000...', 'PING')
+#4 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/BusinessWorker.php(361): call_user_func('Events::onMessa...', '7f0000010b54000...', 'PING')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Connection/TcpConnection.php(430): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #54, 2, NULL)
+#8 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Events/Libevent.php(202): event_base_loop(Resource id #33)
+#9 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(1472): Workerman\Events\Libevent->loop()
+#10 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/BusinessWorker.php(175): Workerman\Worker->run()
+#11 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(900): GatewayWorker\BusinessWorker->run()
+#12 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(866): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#13 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(1018): Workerman\Worker::forkWorkers()
+#14 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(425): Workerman\Worker::monitorWorkers()
+#15 /www/web/vivimeet_com/public_html/GWLinux/start.php(33): Workerman\Worker::runAll()
+#16 {main}
+2016-09-28 07:32:48 pid:12677 WORKER EXIT UNEXPECTED 
+2016-09-28 07:32:48 pid:8141 worker[ChatWorker:12677] exit with status 64000
+2016-09-28 08:36:14 pid:8144 exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND sender_id =' at line 1' in /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php:1720
+Stack trace:
+#0 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php(1720): PDO->prepare('UPDATE `chat_re...')
+#1 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/Lib/DbConnection.php(1808): GatewayWorker\Lib\DbConnection->execute('UPDATE `chat_re...', Array)
+#2 /www/web/vivimeet_com/public_html/GWLinux/Applications/Chat/Events.php(169): GatewayWorker\Lib\DbConnection->query()
+#3 [internal function]: Events::onMessage('7f0000010b56000...', 'PING')
+#4 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/BusinessWorker.php(361): call_user_func('Events::onMessa...', '7f0000010b56000...', 'PING')
+#5 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#6 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Connection/TcpConnection.php(430): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#7 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #56, 2, NULL)
+#8 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Events/Libevent.php(202): event_base_loop(Resource id #31)
+#9 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(1472): Workerman\Events\Libevent->loop()
+#10 /www/web/vivimeet_com/public_html/GWLinux/GatewayWorker/BusinessWorker.php(175): Workerman\Worker->run()
+#11 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(900): GatewayWorker\BusinessWorker->run()
+#12 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(866): Workerman\Worker::forkOneWorker(Object(GatewayWorker\BusinessWorker))
+#13 /www/web/vivimeet_com/public_html/GWLinux/Workerman/Worker.php(422): Workerman\Worker::forkWorkers()
+#14 /www/web/vivimeet_com/public_html/GWLinux/start.php(33): Workerman\Worker::runAll()
+#15 {main}
+2016-09-28 08:36:14 pid:8144 WORKER EXIT UNEXPECTED 
+2016-09-28 08:36:14 pid:8141 worker[ChatWorker:8144] exit with status 64000
+2016-09-29 11:48:49 pid:2857 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] start in DEBUG mode
+2016-09-29 11:48:49 pid:2857 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] already running
+2016-09-29 11:49:07 pid:2860 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] stop 
+2016-09-29 11:49:07 pid:2860 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] is stoping ...
+2016-09-29 11:49:07 pid:8141 Workerman[start.php] Stopping ...
+2016-09-29 11:49:09 pid:8141 worker[ChatWorker:8142] exit with status 9
+2016-09-29 11:49:09 pid:8141 worker[ChatWorker:13494] exit with status 9
+2016-09-29 11:49:09 pid:8141 worker[ChatWorker:20817] exit with status 9
+2016-09-29 11:49:09 pid:8141 Workerman[start.php] has been stopped
+2016-09-29 11:49:09 pid:2860 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] stop success
+2016-09-29 11:49:13 pid:2861 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] stop 
+2016-09-29 11:49:13 pid:2861 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] not run
+2016-09-29 11:49:22 pid:2862 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] start in DEBUG mode
+2016-09-29 15:42:09 pid:4673 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] start in DAEMON mode
+2016-09-29 16:05:40 pid:4943 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] stop 
+2016-09-29 16:05:40 pid:4943 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] is stoping ...
+2016-09-29 16:05:40 pid:4675 Workerman[start.php] Stopping ...
+2016-09-29 16:05:40 pid:4675 Workerman[start.php] has been stopped
+2016-09-29 16:05:40 pid:4943 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] stop success
+2016-09-29 16:05:48 pid:4944 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] sstart 
+2016-09-29 16:05:48 pid:4944 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] not run
+2016-09-29 16:05:59 pid:4945 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] ssop 
+2016-09-29 16:05:59 pid:4945 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] not run
+2016-09-29 16:06:07 pid:4948 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] stop 
+2016-09-29 16:06:07 pid:4948 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] not run
+2016-09-29 16:06:16 pid:4949 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] start in DEBUG mode
+2016-09-29 16:06:58 pid:4949 Workerman[start.php] Stopping ...
+2016-09-29 16:06:58 pid:4949 Workerman[start.php] has been stopped
+2016-09-29 16:07:02 pid:4961 Workerman[/www/web/vivimeet_com/public_html/GWLinux/start.php] start in DAEMON mode

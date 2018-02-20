@@ -1,0 +1,28 @@
+@import "public.css";
+
+table {
+    margin: 30px auto 0;
+}
+
+td {
+    line-height: 60px;
+    padding: 0 10px;
+    text-align: right;
+}
+
+input {
+    border: 1px solid #e0e0e0;
+    resize: none;
+    padding: 3px;
+    height: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    width: 200px;
+}
+
+#error_info {
+    width: 300px;
+    color: orangered;
+    text-align: center;
+    margin: 0 auto;
+}

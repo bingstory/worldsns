@@ -1,0 +1,146 @@
+
+body{
+	background: #fff;
+	min-height: 500px;
+	height: auto ;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+	#settop {
+		width: 100%;
+		height: 45px;
+		margin-top: 34px;
+		background: #fff;
+		padding:5px 0 6px 0;
+	}
+	#settop img{
+		padding: 0 5px 5px 15px;
+		float: left;
+	}
+	#settop h3{
+		font-size: 24px;
+		height: 60px;
+		line-height: 40px;
+		text-indent:24px;
+	}
+	#settop ul{
+		list-style: none;
+		height: 45px;
+		line-height: 45px;
+		width: 604px;
+		margin: 0 auto;
+	}
+	#settop ul li{
+		width: 200px;
+		height: 45px;
+		text-align: center;
+		float: left;
+		color: #212cf7;
+		border-right: 1px solid #597ffa;
+	}
+	#settop .focusli{
+		/*background: #528eff;*/
+		background: url(../Images/sjx2.jpg) 1px 6px no-repeat;
+		/*background-repeat: no-repeat;*/
+		color: #fff;
+		font-weight: 800;
+	}
+	#setli_1:hover,#setli_2:hover,#setli_3:hover{
+		/*background: #528eff;*/
+		color: #fff;
+		font-weight: 800;
+		background: url(../Images/sjx2.jpg) 1px 6px no-repeat;
+	}
+
+	.setli_2Date{
+		width: 560px;
+		height: auto;
+		overflow: hidden;
+		margin: 10px auto;
+	}
+	.setimg{
+		display: block;
+		width: 408px;
+		height: 50px;
+		margin: 60px auto;
+		/*background: red;*/
+	}
+	.setli_3Date table{
+		margin: 40px auto;
+		margin-bottom: 20px;
+	}
+
+
+	.setli_3Date table {
+    margin: 30px auto 0;
+	}
+
+	.setli_3Date table td {
+	    line-height: 60px;
+	    padding: 0 10px;
+	    text-align: right;
+	}
+	.setli_3Date input{
+		border: 1px solid #e0e0e0;
+	    resize: none;
+	    padding: 3px;
+	    height: 25px;
+	    font-size: 20px;
+	    line-height: 18px;
+	    width: 200px;
+	}
+	.setli_3Date input#submit_ok, .setli_3Date input#submit_reset {
+	    width: 130px;
+		height: 30px;
+		line-height: 25px;
+		text-align: center;
+		background: #1b5265;
+		color: #FFF;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		margin-left: 50px;
+	}
+	.setli_3Date input:hover{
+		background:#d1f9e1;
+	}
+	input#submit_ok:hover{
+		background:#528eff;
+	}
+	input#submit_reset:hover{
+		background-color: red;
+	}
+
+	.setli_2Date input {
+	    /*border: 1px solid #e0e0e0;
+	    resize: none;
+	    padding: 3px;
+	    height: 25px;
+	    font-size: 20px;
+	    line-height: 18px;
+	    width: 200px;*/
+	    min-width: 130px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #1bc13a;
+		color: #FFF;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		margin-left: 50px;
+	}
+	.setli_2Date input:hover{
+		background:#2d57a1;
+	}
+
+	#error_info {
+	    width: 300px;
+	    height: 20px;
+	    line-height: 20px;
+	    color: orangered;
+	    text-align: center;
+	    margin: 0 auto;
+	}

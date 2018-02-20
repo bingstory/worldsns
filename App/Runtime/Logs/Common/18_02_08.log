@@ -1,0 +1,12 @@
+[ 2018-02-08T21:44:01+08:00 ] 211.149.153.12 /?m=wap\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+ERR: 无法加载模块:Wap\
+
+[ 2018-02-08T21:44:24+08:00 ] 211.149.153.14 /?m=wap\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Wap\
+

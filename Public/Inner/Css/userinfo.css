@@ -1,0 +1,91 @@
+a {
+	text-decoration: none;
+}
+.user_info {
+	width: 500px;
+	height: auto;
+	padding-top:30px;
+	padding-bottom: 50px;
+	border: 1px solid #C6C6C6;
+	border-radius: 5px;
+	box-shadow: 0 1px 15px #e3e3e3;
+	margin:50px auto 0 auto;
+	text-align: center;
+}
+.user_info h3 {
+	font-weight: 100;
+}
+.div_input {
+	width: 400px;
+	height: 35px;
+	margin: 30px auto 0 auto;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px #ccc;
+}
+.div_input label {
+	display: inline-block;
+	width: 110px;
+	padding-left: 10px;
+	text-align: left;
+	height: 35px;
+	line-height: 35px;
+	color: #666;
+	float: left;
+	overflow: hidden;
+}
+.div_input input {
+	font-size: 16px;
+	display: inline-block;
+	width: 255px;
+	height: 32px;
+	line-height: 32px;
+	border: 0 none;
+	float: left;
+	margin-left: 20px;
+	display: inline;
+	text-align: left;
+}
+.div_input a {
+	display: inline-block;
+	width: auto;
+	height: 22px;
+	padding: 0 10px;
+	font-size: 14px;
+	background: #0088CC;
+	color: #fff;
+	text-align: center;
+	line-height: 22px;
+	margin-top: 5px;
+	float: left;
+	border-radius: 5px;
+}
+.edit,
+.close {
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	float: right;
+	margin-left: 15px;
+	display: inline;
+	color: #fff;
+	border-radius: 5px;
+}
+.edit {
+	background: #0066CC;
+}
+.close {
+	background: #f00;
+}
+.buttons {
+	width: 400px;
+	height: 35px;
+	margin: 30px auto 0 auto;
+	border-radius: 5px;
+	border-radius: 5px;
+}

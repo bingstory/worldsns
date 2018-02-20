@@ -1,0 +1,11 @@
+@import "public.css";
+
+#content {
+    padding: 10px;
+    width: 462px;
+    height: 80px;
+    margin: 10px auto;
+    resize: none;
+    display: block;
+    border: 1px solid #E9E9E9;
+}

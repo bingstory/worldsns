@@ -1,0 +1,103 @@
+@charset:"utf-8";/* CSS Document */
+@import "login_public.css";
+
+.panel {
+    height: 500px;
+    overflow: hidden;
+    background: white;
+}
+
+.caption {
+    height: 45px;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: normal;
+    color: #323232;
+    border-bottom: 1px dotted #c8c8c8;
+    margin: 35px 60px;
+}
+
+.table {
+    font-size: 16px;
+    margin: 30px auto 0;
+}
+
+.table td {
+    padding-top: 20px;
+}
+
+#country_list {
+    padding: 12px;
+    height: 48px;
+    line-height: 48px;
+    width: 352px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #e9e9e9;
+    color: #3E3E3E;
+    font-family: "Helvetica", "寰蒋闆呴粦", Tohoma, serif;
+}
+
+#country_code {
+    width: 80px;
+    height: 48px;
+    line-height: 48px \9;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    display: inline-block;
+    background-color: #e9e9e9;
+}
+
+.input {
+    width: 350px;
+    height: 46px;
+    line-height: 46px \9;
+    border: 1px solid #e9e9e9;
+    background: none;
+    font-size: 20px;
+}
+
+.phone_input {
+    width: 270px;
+}
+
+#resend {
+    color: #69b3f2;
+    text-decoration: none;
+}
+
+#resend:hover {
+    cursor: pointer;
+    color: #7cbdf5;
+    text-decoration: underline;
+}
+
+#getCode, #finish {
+    color: white;
+    width: 352px;
+    height: 50px;
+    line-height: 38px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    border-radius:30px;
+    background: #69b3f2;
+    cursor: pointer;
+    margin: 20px auto 0;
+    outline: none;
+}
+
+#getCode:hover, #finish:hover {
+    background-color: #7cbdf5;
+}
+
+#tip {
+    line-height: 26px;
+    margin-top: 20px;
+    color: #D35465;
+    text-align: center;
+    font-size: 16px;
+}
+

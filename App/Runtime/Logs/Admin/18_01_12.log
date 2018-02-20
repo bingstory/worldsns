@@ -1,0 +1,321 @@
+[ 2018-01-12T13:54:03+08:00 ] 127.0.0.1 /index.php?m=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+
+[ 2018-01-12T13:54:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000546s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2018-01-12T13:54:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2018-01-12T13:54:36+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=check&name=cosymeet&pwd=37a0f0b826cfc36282c927a36192e68f&vcode=2201
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'cosymeet' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-12T13:54:38+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode/index.php?m=Admin&c=Login&a=vCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2018-01-12T13:54:45+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=check&name=cosymeet&pwd=37a0f0b826cfc36282c927a36192e68f&vcode=2579
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'cosymeet' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-12T13:54:47+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2018-01-12T13:55:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=check&name=admin&pwd=21232f297a57a5a743894a0e4a801fc3&vcode=2905
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-12T13:55:05+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2018-01-12T13:55:13+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=check&name=admin&pwd=96e79218965eb72c92a549dd5a330112&vcode=7770
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+
+[ 2018-01-12T13:55:15+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2018-01-12T13:55:23+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=check&name=admin&pwd=96e79218965eb72c92a549dd5a330112&vcode=0766
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-12T13:55:24+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2018-01-12T13:55:48+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2018-01-12T13:55:53+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=check&name=adminadmin&pwd=21232f297a57a5a743894a0e4a801fc3&vcode=8672
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+
+[ 2018-01-12T13:55:55+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2018-01-12T13:56:01+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=check&name=adminadmin&pwd=21232f297a57a5a743894a0e4a801fc3&vcode=0562
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'adminadmin' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-12T13:56:02+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2018-01-12T13:56:44+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=check&name=adminadmin&pwd=21232f297a57a5a743894a0e4a801fc3&vcode=1840
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin` WHERE `username` = 'adminadmin' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-01-12T13:56:45+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode/index.php?m=Admin&c=Login&a=vCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-01-12T14:30:07+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2018-01-12T14:33:49+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000578s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000688s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2018-01-12T14:33:49+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2018-01-12T14:33:57+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000724s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000843s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2018-01-12T14:33:57+08:00 ] 127.0.0.1 /index.php?m=Admin&c=login&a=vcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+

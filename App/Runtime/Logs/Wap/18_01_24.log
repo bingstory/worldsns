@@ -1,0 +1,231 @@
+[ 2018-01-24T12:29:14+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000806s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000886s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2018-01-24T12:29:17+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=index&nsukey=95QUTJ0GuOl5Hgn4noTLR2xSD8LstrTBjhwkARqzP47LoGDAb8IF0%2F5%2BNsortKQQjey%2BRH3OpnbXz5d%2BHil6PPhmFW4sJnmVYATkN7tyi360JgtW6RNLzMKVUOVWuupaaio0bR8pWgJ26lQIBwsJF5cwDhTEHf6MzuykaJPqvUprVK3722jG32M0ictkiQCDkAbo%2FwV3S1YLhIrDSlp%2Baw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000756s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000843s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2018-01-24T12:29:17+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=index&nsukey=95QUTJ0GuOl5Hgn4noTLR2xSD8LstrTBjhwkARqzP47LoGDAb8IF0%2F5%2BNsortKQQjey%2BRH3OpnbXz5d%2BHil6PPhmFW4sJnmVYATkN7tyi360JgtW6RNLzMKVUOVWuupaaio0bR8pWgJ26lQIBwsJF5cwDhTEHf6MzuykaJPqvUprVK3722jG32M0ictkiQCDkAbo%2FwV3S1YLhIrDSlp%2Baw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000879s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000982s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2018-01-24T12:29:18+08:00 ] 211.149.153.14 /index.php?m=Wap&c=Index&a=index&nsukey=95QUTJ0GuOl5Hgn4noTLR2xSD8LstrTBjhwkARqzP47LoGDAb8IF0%2F5%2BNsortKQQjey%2BRH3OpnbXz5d%2BHil6PPhmFW4sJnmVYATkN7tyi360JgtW6RNLzMKVUOVWuupaaio0bR8pWgJ26lQIBwsJF5cwDhTEHf6MzuykaJPqvUprVK3722jG32M0ictkiQCDkAbo%2FwV3S1YLhIrDSlp%2Baw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000762s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000875s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2018-01-24T12:29:32+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000785s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000878s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2018-01-24T12:30:15+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000771s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000857s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2018-01-24T12:30:16+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index&nsukey=95QUTJ0GuOl5Hgn4noTLR2xSD8LstrTBjhwkARqzP47LoGDAb8IF0%2F5%2BNsortKQQjey%2BRH3OpnbXz5d%2BHil6PPhmFW4sJnmVYATkN7tyi360JgtW6RNLzMKVUOVWuupaaio0bR8pWgJ26lQIBwsJF5cwDhTEHf6MzuykaJPqvUprVK3722jG32M0ictkiQCDkAbo%2FwV3S1YLhIrDSlp%2Baw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000891s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000992s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2018-01-24T12:30:17+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index&nsukey=95QUTJ0GuOl5Hgn4noTLR2xSD8LstrTBjhwkARqzP47LoGDAb8IF0%2F5%2BNsortKQQjey%2BRH3OpnbXz5d%2BHil6PPhmFW4sJnmVYATkN7tyi360JgtW6RNLzMKVUOVWuupaaio0bR8pWgJ26lQIBwsJF5cwDhTEHf6MzuykaJPqvUprVK3722jG32M0ictkiQCDkAbo%2FwV3S1YLhIrDSlp%2Baw%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000846s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000937s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2018-01-24T12:30:54+08:00 ] 211.149.153.12 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000767s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000848s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2018-01-24T13:20:23+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000760s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000838s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2018-01-24T23:51:00+08:00 ] 211.149.153.13 /index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000945s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+

@@ -1,0 +1,26 @@
+<div style="position: fixed;bottom: 0;right: 0;display: none">
+    <button id="btn4en">en</button>
+    <button id="btn4ru">ru</button>
+    <button id="btn4zh">zh</button>
+</div>
+<ul class="short_menu">
+    <li id="short_top" class="short_btn short_top"></li>
+    <li id="short_chat" class="short_btn short_chat"></li>
+    <li id="short_lang" class="short_btn short_lang">
+      <div id="short_txt">{$lang}</div>
+          <div id="short_viewer">
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'zh-cn'))}">中文简体</a>
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'zh-tw'))}">中文-繁體</a>
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'en-us'))}">English</a>
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'ja'))}">日本語</a>
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'ko-kr'))}">한국의</a>
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'de'))}">Deutsch</a>
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'es'))}">Español</a>
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'fra'))}">Français</a>
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'it'))}">Italiano</a>
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'nl'))}">Nederlandse</a>
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'pt'))}">Português</a>
+        <a class="short_code" href="{:U('Index/Home/index',array('l'=>'ru'))}">Русский</a>
+          </div>
+    </li>
+</ul>

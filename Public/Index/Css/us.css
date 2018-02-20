@@ -1,0 +1,68 @@
+@charset:"utf-8";/* CSS Document */
+@import "login_public.css";
+
+.west {
+    float: left;
+    width: 200px;
+    border: 1px solid lightgray;
+    margin: 20px;
+    background: #f8f9fa;
+}
+
+.west_item {
+    line-height: 30px;
+    text-indent: 10px;
+    cursor: pointer;
+    padding: 0 10px;
+    margin: 10px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.west_item:hover {
+    border-radius: 5px;
+    background: #ade4ff;
+}
+
+.west_item_focus {
+    border-radius: 5px;
+    color: #ffffff;
+    background: #95b1ea;
+}
+
+.west_item_point {
+    float: left;
+    font-size: 23pt;
+    font-weight: bolder;
+    color: #71e200;
+}
+
+.east {
+    float: right;
+    width: 700px;
+    margin: 20px 20px 20px 0;
+}
+
+.east {
+    float: right;
+    width: 700px;
+    margin: 20px 20px 20px 0;
+}
+
+.east img {
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.east_title {
+    font-size: 13px;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.east_section {
+    text-indent: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+

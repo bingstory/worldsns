@@ -1,0 +1,46 @@
+.scroll_cate_div{
+    width: 900px;
+    height: 600px;;
+    margin: 0 auto;
+    overflow: auto;
+}
+.add_category_main {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+
+}
+.cat_container {
+    width: auto;
+    min-height:280px;
+    height: auto;
+    border: 1px solid #ccc;
+    float: left;
+    overflow: hidden;
+    color: #000;
+    font-size: 0.8em;
+}
+
+.cat_first_content {
+    background: #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px 0 0;
+}
+
+.cat__second_content, .cat_first_content {
+    width: 150px;
+    height: auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.cat_container input[type=checkbox] {
+    float: left;
+    clear: left;
+}
+
+.cat_container label {
+    display: block;
+    width: 100px;
+    float: left;
+}

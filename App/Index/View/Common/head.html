@@ -1,0 +1,179 @@
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/Index/Css/home.css?3111">
+<link rel="stylesheet" href="__PUBLIC__/Index/Css/Font-Awesome-4.2.0/css/font-awesome.min.css">
+<style>
+    .head_submenu li{ border:none; }
+    .head_submenu{ border-radius: 7px; overflow: hidden; }
+    .head_search_em { 
+        background: #6281b9 url(/Public/Index/Images/icon_0.png) no-repeat -211px 0;
+        border-radius: 0 50px 50px 0;
+    }
+    #head_search_key{ border-radius: 50px 0 0 50px; background-color: #6281b9;}
+    #head_search{ width: 160px; }
+    #head_search_key{ width: 120px; }
+</style>
+<div class="head">
+    <div class="head_wrap">
+        <em class="head_logo">
+            <notempty name='webinfo.logo'>
+                <img width="180px" height="45px" src="{$webinfo.logo}">     
+            <else />
+                <img width="180px" height="45px" src="__PUBLIC__/Index/Images/ymz_logo.png" />
+            </notempty> 
+        </em>
+        <dl class="head_west">
+            <!--原来“浏览”
+            <dd id="head_discover" class="head_link">
+                <a class="head_em head_discover_icon"></a>
+                <span>{$Think.lang.browse}</span>
+            </dd>首页 我的主页 聊天   升级   充值
+            -->
+            <!--点击“聊天”,增加类名：“chat_focus”，  “聊天的背景即可亮起”-->
+            <dd id="head_discover" class="head_link">
+                <i class="fa fa-home" style="color:#e3e5e5; font-size:22px;line-height: 45px;"></i>
+                <span style="line-height:43px;">{$Think.lang.browse}</span>
+            </dd>
+            <dd id="head_space_2" class="head_link">
+                <a class="head_em head_discover_icon"></a>
+                <span>{$Think.lang.profile}</span>
+            </dd>
+            <dd id="head_chat" class="head_link ">  
+                <a class="head_em head_chat_icon"></a>
+                <span>{$Think.lang.chat}</span>
+            </dd>
+            <!-- 图标+充值，图标+升级 -->
+            <!-- <dd id="head_upgrade" class="head_link">
+                <i class="fa fa-level-up" style="color:#e3e5e5; font-size:20px;line-height: 45px;"></i>
+                <span style="line-height:43px;">{$Think.lang.upgrade}</span>
+            </dd>
+            <dd id="head_recharge" class="head_link">
+                <i class="fa fa-usd" style="color:#e3e5e5; font-size:20px;line-height: 45px;"></i>
+                <span style="line-height:43px;">{$Think.lang.recharge}</span>
+            </dd> -->
+            <!-- <dd id="head_upgrade" class="head_pay head_upgrade" style="margin-left:40px;">
+            </dd>
+            <dd id="head_recharge" class="head_pay head_recharge" style="margin-left:25px;">
+            </dd> -->
+            
+            
+            <dd id="head_chat_count" class="head_chat_count" style="display:none;"></dd>
+            <dd id="chat_show" style="display:none;">   
+            <!--通常是display:none；但，当“点击 聊天”时，display:block；-->
+                <div id="chat_mask" class="chat_mask"></div>
+                <div class="chat_outer">
+                    <ul id="chat_panel">
+                        <li id="chat_close"></li>
+                        <li id="chat_west">
+                            <div id="chat_so">
+                                <input id="chat_so_key" type="text"/>
+                                <span id="chat_so_list"></span>
+                            </div>
+                            <div id="chat_list">
+                                
+                            </div>
+                        </li>
+                        <li id="chat_empty" style="display:block;"></li>    <!--JS，判断是否“聊天中”，无聊天，则 display:block;  显示背景图 -->
+                        <li id="chat_east"  style="display:none;">  <!--JS，判断是否“聊天中”，聊天时，则 display:block;  显示 “对话”-->
+                            <div id="chat_pal" >
+                                <img id="chat_pal_icon" src="">  <!--JS，“聊天中”，好友的 “ 头像，” -->
+                                <ul>
+                                    <li>
+                                        <em class="chat_pal_m chat_pal_m_2" id="chat_pal_m"></em>   <!-- 类名"chat_pal_m_2"，“皇冠”的图标 -->                                                                                                                 <!-- 类名"chat_pal_m_1"，“蓝钻”的图标 -->
+                                        <span id="chat_pal_name"></span>        <!--“聊天中”，好友的 “ 名字” -->
+                                    </li>
+                                    <li id="chat_pal_about" >
+                                                        <!--“聊天中”，好友的 “内容” -->
+                                    </li>
+                                </ul>
+                            </div>  
+                            <div id="chat_main">
+                                <a id="chat_history_wrap" class="chat_history_wrap">
+                                    <em class="chat_history_btn"></em>
+                                </a>
+                                <div id="chat_content">
+                                    
+                                </div>
+                            </div>
+                            <textarea id="chat_input" maxlength="300"></textarea>
+                            <div id="chat_bar">
+                                <div id="chat_emotion" class="chat_btn chat_emotion">
+                                    <ul id="chat_emotion_viewer" class="chat_emotion_viewer">
+                                        <li id="chat_emotion_wrp" class="chat_emotion_wrp">
+                                            <div id="chat_emotion_bar" class="chat_emotion_bar">
+                                                <em id="chat_emotion_tl" class="chat_emotion_tb chat_emotion_tl"></em>
+                                                <span id="chat_emotion_tc" class="chat_emotion_tc">
+                                                    <div id="chat_emotion_ts"></div>
+                                                </span>
+                                                <em id="chat_emotion_tr" class="chat_emotion_tb chat_emotion_tr"></em>
+                                                <em id="chat_emotion_tp" class="chat_emotion_tb chat_emotion_tp"></em>
+                                            </div>
+                                            <div id="chat_emotion_board" class="chat_emotion_board"></div>
+                                        </li>
+                                        <li id="chat_emotion_arrow" class="chat_emotion_arrow"></li>
+                                    </ul>
+                                </div>
+                                <div id="chat_camera" class="chat_btn">
+                                    <div id="camera_object"></div>
+                                </div>
+                                <ul id="chat_camera_viewer">
+                                    <li id="chat_camera_close"></li>
+                                    <li id="chat_camera_photo"></li>
+                                    <li class="chat_arrow"></li>
+                                </ul>
+                                <div id="chat_send">Post</div>
+                                <select id="chat_trans_select">
+                                </select>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </dd>
+        </dl>
+        <dl class="head_east">
+            <!-- 不加图标的“充值”、“升级” -->
+            <dd id="head_recharge" class="head_link" >
+                <span style="line-height:45px;">{$Think.lang.recharge}</span>
+            </dd>
+            <dd id="head_upgrade" class="head_link" style="margin-right: 15px;">
+                <span style="line-height:45px;">{$Think.lang.upgrade}</span>
+            </dd>
+
+            <dd id="head_search">
+                <input type="text" id="head_search_key"><em id="head_search_em" class="head_search_em"></em>
+
+                <div id="head_search_wrap">
+                    <div class="head_search_arrow"></div>
+                    <div id="head_search_result"></div>
+                </div>
+            </dd>
+            <!--
+            <dd id="head_recharge" class="head_pay head_recharge" ></dd>
+            <dd id="head_upgrade" class="head_pay head_upgrade" ></dd>
+            -->
+
+            <dd class="head_user">
+                <a id="head_space_1" class="head_profile" >
+                     <!--    <img id="head_url" class="head_url" />
+                    {$Think.lang.setup}
+                    <em class="head_arrow"></em> -->
+                    <img src="/Public/Index/Images/sz.png" style="width: 23px; height: 23px; margin-top: 5px;" alt="">
+                </a>
+                <ul class="head_submenu">
+                    <!--
+                    <li id="head_space_2">{$Think.lang.profile}</li>
+                    -->
+                    <li id="head_contact">
+                    <!-- 联系客服 --> {$Think.lang.contact us} 
+                    </li>
+
+                    <li id="head_Head">{$Think.lang.Head set}</li>
+                    <li id="head_Data"><!-- <a href="http://localhost/yang2/index.php?m=Index&c=Setting&a=index" target="blank" style="text-decoration: none; color:#707070;"> -->{$Think.lang.Data set}<!-- </a> --></li>
+                    
+                    <li id="head_pass">{$Think.lang.change password}</li>
+                    <a href="index.php?m=Index&c=index&a=logOut" style=" text-decoration:none;">
+                    <li id="logout">{$Think.lang.log out}</li>
+                    </a>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+</div>

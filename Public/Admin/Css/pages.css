@@ -1,0 +1,99 @@
+/*工具条 分页 全选*/
+
+.tools {
+	height: 35px;
+	margin: 0 auto;
+	/*background: #F5F6FA;*/
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: #ccc;
+	font-size: 14px;
+	overflow: hidden;
+}
+.select_all {
+	width: auto;
+	height: 35px;
+	padding-left: 19px;
+	padding-right:10px;
+	float: left;
+	display: inline;
+	line-height: 35px;
+	border-right: 1px solid #ccc;
+	text-align: left;
+}
+.select_all label,
+.select_all a {
+	background: Red;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 12px;
+	padding: 2px 3px;
+	margin-left: 10px;
+}
+.select_th {
+	width: 50px;
+	padding: 0;
+}
+.settings {
+	float: left;
+	line-height: 35px;
+	font-size: 14px;
+	padding-left:20px;
+}
+.settings select option{
+	width:100px;
+}
+.settings p {
+	float: left;
+	line-height: 35px;
+	padding: 0 15px;
+	font-size: 14px;
+}
+.pages {
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.pages a {
+	display: inline-block;
+	width: auto;
+	padding: 0 5px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	text-align: center;
+	float: left;
+	margin-left: 2px;
+	background: #0066CC;
+	border-radius: 3px;
+	color: #fff;
+	margin-top: 5px;
+	font-size: 12px;
+}
+.settings input {
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	text-align: center;
+}
+.settings select {
+    border: 1px solid #ccc;
+}
+a.pages_num_invalid {
+	display: inline-block;
+	width: auto;
+	padding: 0 5px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	text-align: center;
+	float: left;
+	margin-left: 2px;
+	background: #AAAAAA;
+	border-radius: 3px;
+	color: #fff;
+	margin-top: 5px;
+	font-size: 12px;
+}

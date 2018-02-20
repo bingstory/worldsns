@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$Think.lang.title}</title>
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta name="Keywords" content="{$Think.lang.Keywords}"/>
+<meta name="description" content="{$Think.lang.description}"/>
+    <link rel="Bookmark" type="image/x-icon" href="__PUBLIC__/Index/Images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="__PUBLIC__/Index/Images/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/Index/Css/home.css?2">
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/Index/Css/chat.css">
+
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/Css/setting.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/Css/s_about.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/Css/d_avatar.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Index/Css/GwxDialog.css"> 
+    
+</head>
+<body>
+<include file="Common/head" />
+<include file="Common/menu" />
+<style>
+.user_avatar img{ height: 83px; }
+/*.s_top{ background-size: 100% 100%; }*/
+#chat_east,#chat_empty{ width: 810px; }
+.wall_list img{ 
+    border-radius: 50%;
+ }
+.wall_list img:hover {
+    border: 1px solid #FFF;
+}
+.wall_a_i img{ border-radius: 50%; }
+.nav_focus{ border-radius: 0; }
+</style>
+<div id="home" class="home" >  
+    <div class="wall">
+        <div id="wall_me" class="wall_a">
+            <div class="wall_a_i">
+                <img id="wall_me_url" >
+            </div>
+            <div class="wall_a_m wall_a_b"></div>
+            <div class="wall_a_plus" style="background: url('__PUBLIC__/Index/Images/icon_0.png') -343px -0px;"></div>
+        </div>
+        <div id="wall_list" class="wall_list">
+                
+        </div>
+    </div>
+    <div class="west">
+        <div class="user_wrapper">
+            <div id="user_avatar" class="user_avatar">
+                <img id="user_url" class="user_url" />
+            </div>
+            <div class="user_list">
+                <div>
+                    <span id="user_name" class="user_name"></span> <!--链接：<a href="用户的主页" target="_self"> -->
+                    <span id="user_m" ></span>   <!-- “蓝钻” js来增加class=“user_m user_m_1” -->
+                </div>
+                <div style="margin-top: 8px">
+                    <span id="user_gold" class="user_gold" ></span>     <!--  后台显示“账户余额： 0” -->
+                    <span id="user_gold_icon" class="user_m user_gold_icon"></span>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div id="nav_first" class="nav_item nav_focus" title="{$Think.lang.news feed}" >
+                <em class="nav_first"></em><a ><span> {$Think.lang.news feed} </span></a>
+            </div>
+            <div id="nav_encounter" class="nav_item" title="{$Think.lang.encounter}">
+                <em class="nav_encounter"></em><a><span> {$Think.lang.encounter} </span></a>
+                <b id="note_count_encounter" style="display:block;"></b>        <!--  js来显示消息个数  style="display:block;" -->
+            </div>
+            <!-- 好友 -->
+            <!-- <div id="nav_friends" class="nav_item" title="{$Think.lang.good friends}">
+                <em class="nav_favor"></em><a>
+                <span>{$Think.lang.good friends}</span></a>
+            </div> -->
+            <div id="nav_favor" class="nav_item" title="{$Think.lang.favorite}">
+                <em class="nav_favor"></em><a><span>{$Think.lang.favorite}</span></a>
+                <b style="display: none;" id="note_count_encounter">0</b>
+            </div>
+
+            <div id="nav_visitor" class="nav_item" title="{$Think.lang.visitor}">
+                <em class="nav_visitor"></em><a><span> {$Think.lang.visitor} </span></a>
+                <b id="note_count_visitor" style="display:block;"></b>      <!--  js来显示消息个数  style="display:block;" -->
+            </div>
+              
+        </div>
+        <div class="nav">
+            <!-- 礼物商店 -->
+            <div id="nav_Giftall" class="nav_item" title="{$Think.lang.gift store}">
+                <em class="nav_flower"></em><a><span>{$Think.lang.gift store}</span></a>
+            </div>
+
+            <div id="nav_sticker" class="nav_item" title="{$Think.lang.sticker store}">
+                <em class="nav_sticker"></em><a><span>{$Think.lang.sticker store}</span></a>
+            </div>
+            <div id="nav_box" class="nav_item" title="{$Think.lang.gift box}" >
+                <em class="nav_box"></em><a><span>{$Think.lang.gift box}</span></a>
+                <b id="note_count_gift" style="display:block;"> 
+                <!-- js来显示消息个数  -->
+                </b>    
+            </div>
+            <!-- 真实礼物
+            <div id="nav_flower" class="nav_item" title="{$Think.lang.real gift}">
+                <em class="nav_flower"></em><a><span>{$Think.lang.real gift}</span></a>
+            </div>
+            情人节礼物
+            <div id="nav_valentine" class="nav_item" title="{$Think.lang.valentine's day}">
+                <em class="nav_valentine"></em><a><span>{$Think.lang.valentine's day}</span></a>
+            </div>
+            表情商店
+            <div id="nav_sticker" class="nav_item" title="{$Think.lang.sticker store}">
+                <em class="nav_sticker"></em><a><span>{$Think.lang.sticker store}</span></a>
+            </div> -->
+        </div>
+        <div id="west_upgrade" class="west_upgrade">{$Think.lang.upgrade}</div>
+        <div id="west_sticker" class="west_sticker">
+            <a class="west_sticker_btn">{$Think.lang.more fun in chatting}</a>
+        </div>
+        <div id="west_upload" class="west_upload">{$Think.lang.add photo of yourself}</div>
+    </div>
+    <div class="center">
+        <iframe id="center_ifm" name="center_ifm" frameborder="0" class="center_ifm"></iframe>
+    </div>
+</div>
+<div id="space" class="space">          <!--通常是display:none；但，“点击 主页”时，display:block；-->
+    <notempty name="webinfo.spacebanner">
+        <div class="s_top" style="background: url('{$webinfo.spacebanner}') repeat; background-size: 100% 100%;">
+    <else />
+        <div class="s_top" style="background: url('__PUBLIC__/Index/Images/space_top2.jpg') repeat;">
+    </notempty>
+        <div class="s_user">
+            <div id="s_icon" class="s_icon">
+                
+            </div>
+            <dl class="s_info">
+                
+                <dd id="s_life" class="s_life">
+                    <em id="s_life_status"></em>
+                    <ul id="s_life_list" class="s_life_list">
+                        <li id="s_life_hide" class="s_life_item" >{$Think.lang.Set stealth}</li>
+                        <li id="s_life_online" class="s_life_item" >{$Think.lang.Set online}</li>
+                    </ul>
+                </dd>
+                <!--
+                <dd id="s_life" class="s_life s_life_false">•</dd>  不在线”s_life_false“-->
+                <dd id="s_name" class="s_name"></dd>    
+                <!-- 用户名字-->
+                <dd id="s_m"></dd>
+                <!-- 用户的等级 : s_m_1 , s_m_2 。-->
+            </dl>
+        </div>
+
+        <div id="s_nav" class="s_nav">
+            <div id="s_nav_profile" class="s_nav_item s_nav_focus">{$Think.lang.home}</div>
+            <div id="s_nav_album" class="s_nav_item">{$Think.lang.photos}</div>
+            <!-- 主页里的“资料” -->
+            <!-- <div id="s_nav_about" class="s_nav_item">{$Think.lang.about}</div> -->
+        </div>
+    </div>
+    <div class="s_center">
+        <iframe id="s_ifm" name="s_ifm" frameborder="0" class="s_center_ifm" ></iframe>
+    </div>
+</div>
+<div id="setting" style="display: none;">
+    <!-- 导航菜单 -->
+    <div id="settop">
+        <ul id="setul" >
+            <li id="setli_1" onclick="focusli('setli_1')" class="focusli">{$Think.lang.Data set}</li>
+            <li id="setli_2"  onclick="focusli('setli_2')">{$Think.lang.Head set}</li>
+            <li id="setli_3"  onclick="focusli('setli_3')" style="border: none;">{$Think.lang.change password}</li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function focusli(id){
+            //导航菜单样式
+            var Lis = document.getElementById('setul').getElementsByTagName('li');
+            for (var i = Lis.length - 1; i >= 0; i--) {
+                Lis[i].className="";    
+            }
+            document.getElementById(id).className="focusli";
+            //导航菜单关联的内容
+            var DIVs = ["setli_1Date","setli_2Date","setli_3Date"];
+            for (var i = DIVs.length - 1; i >= 0; i--) {
+                document.getElementById(DIVs[i]).style.display="none";  
+            }
+            document.getElementById(id+"Date").style.display="block";
+        }
+    </script>
+    <!-- 资料设置 -->
+    <div id="setli_1Date" class="baseDate" style="width:1100px; margin: 10px auto;">
+        <div class="panel" style="float: left;">
+            <div class="caption">
+                {$Think.lang.about me2}        
+                <button name="btn_edit" class="btn btn_edit" style="display:block;">{$Think.lang.edit}</button> 
+                <button name="btn_post" class="btn public_btn_blue">{$Think.lang.save it}</button> 
+                <div id="btn_trans" class="btn btn_trans">
+                    <label lang="public_btn_trans|c"></label>
+                </div>
+            </div>
+            <div class="base" style="padding: 0;">
+                <div id="about_look"></div>
+                <textarea id="about" style="display: none"></textarea>
+            </div>
+        </div>
+
+        <div class="panel" style="float: right;">
+            <div class="caption">
+                {$Think.lang.basic information}        
+                <button name="btn_edit" class="btn btn_edit">{$Think.lang.edit}</button>
+                <button name="btn_post" class="btn public_btn_blue">{$Think.lang.save it}</button>
+            </div>
+            <div class="base">
+                <table>
+                    <tr>
+                        <td>{$Think.lang.gender}:</td>
+                        <td>
+                            <div id="gender_look"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>{$Think.lang.birthday}:</td>
+                        <td>
+                            <div id="birth_look" style="display:block;"></div>
+                            <div id="birth" style="display: none;padding-left: 0">
+                                <select id="birth_day">
+                                    
+                                </select>
+                                <select id="birth_month">
+                                    
+                                </select>
+                                <select id="birth_year">
+                                    
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>{$Think.lang.language}:</td>
+                        <td>
+                            <div id="language_look"></div>
+                            <select id="language" style="display: none">
+                                
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>{$Think.lang.weight}:</td>
+                        <td>
+                            <div id="weight_look"></div>
+                            <select id="weight" style="display: none">
+                                
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>{$Think.lang.height}:</td>
+                        <td>
+                            <div id="height_look"></div>
+                            <select id="height" style="display: none;">
+                                
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="panel" style="float: left;margin-top: 10px">
+            <div class="caption">
+                {$Think.lang.status}        <button name="btn_edit" class="btn btn_edit">{$Think.lang.edit}</button>
+                <button name="btn_post" class="btn public_btn_blue">{$Think.lang.save it}</button>
+            </div>
+            <div class="base">
+                <table>
+                    <tr>
+                        <td>{$Think.lang.sexuality}:</td>
+                        <td>
+                            <div id="sexuality_look"></div>
+                            <select id="sexuality" style="display: none">
+                            
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>{$Think.lang.status1}:</td>
+                        <td>
+                            <div id="relationship_look"></div>
+                            <select id="relationship" style="display: none">
+                                
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="panel" style="float: right;margin-top: 10px">
+            <div class="caption">
+                {$Think.lang.education and work}        
+                <button name="btn_edit" class="btn btn_edit">{$Think.lang.edit}</button>
+                <button name="btn_post" class="btn public_btn_blue">{$Think.lang.save it}</button>
+            </div>
+            <div class="base">
+                <table>
+                    <tr>
+                        <td>{$Think.lang.education}:</td>
+                        <td>
+                            <div id="education_look"></div>
+                            <select id="education" style="display: none">
+                                
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>{$Think.lang.job}:</td>
+                        <td>
+                            <div id="work_look"></div>
+                            <input type="text" id="work" style="display: none">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>{$Think.lang.income}:</td>
+                        <td>
+                            <div id="income_look"></div>
+                            <select id="income" style="display: none">
+                                
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="panel" style="float: left;margin-top: 10px">
+            <div class="caption">
+                {$Think.lang.place}       
+                <button name="btn_edit" class="btn btn_edit">{$Think.lang.edit}</button>
+                <button name="btn_post" class="btn public_btn_blue">{$Think.lang.save it}</button>
+            </div>
+            <div class="base">
+                <table>
+                    <tr>
+                        <td>{$Think.lang.country}:</td>
+                        <td>
+                            <div id="country_look"></div>
+                            <input id="country" type="text" style="display: none">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>{$Think.lang.city}:</td>
+                        <td>
+                            <div id="city_look"></div>
+                            <input id="city" type="text" style="display: none">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- <script type="text/javascript" charset="utf-8" src="__PUBLIC__/Index/js/first.js"></script> -->
+        </div>
+    </div>
+    <!-- 头像设置 -->
+    <div id="setli_2Date" class="setli_2Date" style="display: none;">
+        
+        <div id="browse" class="browse">
+            <div id="upload2" >
+            </div>
+            <a>{$Think.lang.choose photo}</a>
+        </div>
+        <div id="raw2" class="raw"></div>
+        <div id="preview2" class="preview" style="overflow: hidden;">
+            <img style="margin-left: 0px; margin-top: 0px;" height="203" width="203"/>
+        </div>
+        <div id="setImg" class="setimg" style="margin-top: 370px;">
+            <input id="setImgOK" type="button" value="{$Think.lang.done}" />
+        </div>    
+    </div>
+
+    <!-- 修改密码 -->
+    <div id="setli_3Date" class="setli_3Date" style="display: none;">
+        <form method="post" action="">
+            <table style="height: 100px;">
+            <tbody>
+                <tr><!-- 后台获取原始密码，输入是判断是否一致 -->
+                    <td>{$Think.lang.Original password} :</td>
+                    <td><input id="Original_pass" type="password"></td>
+                </tr>
+                <tr>
+                    <td>{$Think.lang.new password} :</td>
+                    <td><input id="pass1" type="password"></td>
+                </tr>
+                <tr>
+                    <td>{$Think.lang.enter new password again} :</td>
+                    <td><input id="pass2" type="password"></td>
+                </tr>
+            </tbody>
+            </table>
+            <div id="error_info" >
+            </div> 
+        </form>
+        <div class="setimg">
+            <input type="button" value="{$Think.lang.confirm}" id="submit_ok" />
+            <input type="reset" id="submit_reset" onclick="document.getElementById('pass1').value='';document.getElementById('pass2').value='';document.getElementById('Original_pass').value='';document.getElementById('error_info').innerHTML='';" value="{$Think.lang.cancel}" />
+        </div>
+    </div>
+
+</div>
+
+
+<div id="MaskBox" style="z-index: 2147483647; opacity: 0.6; height:100%; display:none;" class="gwx_dialog_mask">
+<!-- 黑色的  遮罩层-->
+</div>
+<div id="MaskContent" style="z-index: 2147483647; position:absolute; height: 360px; width:700px; display:none;" class="gwx_dialog_win_outer">
+    <div  class="gwx_dialog_win">
+        <div class="gwx_dialog_north">
+            <span id="gwx_dialog_title">{$Think.lang.Email auth}</span>
+            <div id="gwx_dialog_close" class="gwx_dialog_close"></div>
+        </div>
+        <div class="gwx_dialog_ifm_loading" style=" height: auto;">
+            <iframe id="MyFrame" class="gwx_dialog_ifm" src="" style="width:700px;height: 320px;" frameborder="0">
+            </iframe>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Index/Js/common.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Index/Js/home.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Index/Js/GwxDialog.js"></script>
+<!-- <script type="text/javascript" charset="utf-8" src="__PUBLIC__/Index/Js/GwxPhotoUploader.js"></script> -->
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Index/Js/GwxFace_0829.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Index/Js/chat.js?2"></script>
+<script src="__PUBLIC__/Index/Js/GwxPhotoCutter_1126_d.js"></script>
+<script src="__PUBLIC__/Index/Js/GwxPhotoUploader_d.js"></script>
+<script src="__PUBLIC__/Index/Js/d_avatar_d.js"></script>
+<script src="__PUBLIC__/Index/Js/s_about.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9dedf994d48fce2a4765a9168d878887";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</body>
+</html>

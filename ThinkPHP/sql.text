@@ -1,0 +1,194 @@
+
+/*用户数据表*/
+create table user(
+id int primary key auto_increment comment '用户编号',
+username varchar(30) not null comment '用户名',
+pwd varchar(50) not null comment '密码',
+header text comment '头像',
+sex enum('male','female') comment '性别',
+email varchar(50) comment'邮箱',
+year int comment '出生年份',
+month int comment '出生月份',
+day int comment '出生日期',
+height int comment '身高',
+weight int comment '体重',
+country varchar(20) comment '国籍',
+worker varchar(20) comment '职位',
+marital_status enum('unmarried','married','divorce') comment '婚姻状况',
+salary int comment '年薪',
+is_smoke enum('never','sometime','often') comment '是否抽烟',
+is_drink enum('never','sometime','often') comment '是否喝酒',
+level int comment '会员级别',
+gold int comment '金币数',
+mood text comment '心情',
+status bool default true comment '是否禁用，true表示表示正常，false表示禁用',
+created int comment '创建时间',
+updated int comment '更新时间',
+constraint foreign key(level) references member(id) on delete restrict on update restrict
+)comment='用户数据表';
+
+/*会员表设置数据表*/
+create table member(
+id int primary key auto_increment comment '会员级别编号',
+name varchar(20) not null comment '会员名称',
+onefee int not null comment '一个月会费',
+threefee int not null comment '三个月会费',
+sixfee int not null comment '六个月会费',
+yearfee int not null comment '年会费',
+unit varchar(20) comment '单位',
+auth_id text comment '权限',
+created int comment '创建时间',
+updated int comment '更新时间'
+)comment='会员设置数据表';
+
+/*动态记录数据表*/
+create table broadcast(
+id int primary key auto_increment comment '动态编号',
+user_id int comment '用户编号',
+content text comment '内容',
+img text comment '图片',
+type enum('broadcast','photo') comment '类型，动态或者靓照',
+created int comment '创建时间',
+updated int comment '更新时间',
+constraint foreign key(user_id) references user(id) on delete restrict on update restrict
+)comment='动态记录数据表';
+
+/*聊天记录数据表*/
+create table chat_record(
+id int primary key auto_increment comment '记录编号',
+sender_id int comment '发送者编号',
+reciver_id int comment '接收者编号',
+content text comment '聊天内容',
+created int comment '创建时间',
+updated int comment '更新时间',
+constraint foreign key(sender_id) references user(id) on delete restrict on update restrict,
+constraint foreign key(reciver_id) references user(id) on delete restrict on update restrict
+)comment='聊天记录数据表';
+
+/*礼物数据表*/
+create table gift(
+id int primary key auto_increment comment '礼物编号',
+name varchar(20) comment '礼物名称',
+img text not null comment '图片',
+price int not null comment '价格',
+status bool default true comment '状态，true表示可用，false表示禁用',
+created int comment '创建时间',
+updated int comment '更新时间'
+)comment='礼物数据表';
+
+/*用户-礼物数据表*/
+create table user_gift(
+id int primary key auto_increment comment '编号',
+gift_id int comment '礼物编号',
+sender_id  int comment '赠送者编号',
+reciver_id int comment '接受者编号',
+content text comment '聊天内容',
+created int comment '创建时间',
+updated int comment '更新时间',
+constraint foreign key(sender_id) references user(id) on delete restrict on update restrict,
+constraint foreign key(reciver_id) references user(id) on delete restrict on update restrict,
+constraint foreign key(gift_id) references gift(id) on delete restrict on update restrict
+)comment='用户礼物数据表';
+
+/*网站配置数据表*/
+create table web_conf(
+id int primary key auto_increment comment '配置项编号',
+name varchar(30) not null comment '配置项名称',
+content text comment '配置项内容',
+created int comment '创建时间',
+updated int comment '更新时间'
+)comment='网站配置数据表';
+
+/*升级会员记录表*/
+create table Upgrade_record(
+id int primary key auto_increment comment '记录编号',
+source_id int comment '充值账户',
+target_id int comment '被充值账户',
+type_id int comment '会员类型',
+time int comment '充值时间', 
+amount int comment '充值金额',
+created int comment '创建时间',
+updated int comment '更新时间',
+constraint foreign key(source_id) references user(id) on delete restrict on update restrict,
+constraint foreign key(target_id) references user(id) on delete restrict on update restrict,
+constraint foreign key(type_id) references member(id) on delete restrict on update restrict
+)comment='升级会员记录表';
+
+/*充值记录表*/
+create table prepaid_record(
+id int primary key auto_increment comment '记录编号',
+sum int comment '金额',
+gold int comment '金币数',
+unit varchar(20) comment '单位',
+created int comment '创建时间',
+updated int comment '更新时间'
+)comment='充值记录表';
+
+/*会员权限数据表*/
+create table auth(
+id int primary key auto_increment comment '权限编号',
+name varchar(20) not null comment '权限名称',
+controller varchar(20) comment '控制器',
+action varchar(20) comment '方法',
+created int comment '创建时间',
+updated int comment '更新时间'
+)comment='会员权限数据表';
+
+/*金币消费记录表*/
+create table gold_record(
+id int primary key auto_increment comment '消费编号',
+user_id int not null comment '用户编号',
+num int comment '消费数量',
+created int comment '创建时间',
+updated int comment '更新时间'
+)comment='金币消费记录表';
+
+/*现金-金币数据表*/
+create table money_gold(
+id int primary key auto_increment comment '编号',
+money int not null comment '金额',
+gold int not null comment '金币',
+created int comment '创建时间',
+updated int comment '更新时间'
+)comment='现金金币数据表';
+
+/*用户-喜欢数据表*/
+create table user_like(
+id int primary key auto_increment comment '编号',
+source_id int comment '点赞者编号',
+target_id int comment '被赞者编号',
+created int comment '创建时间',
+updated int comment '更新时间',
+constraint foreign key(source_id) references user(id) on delete restrict on update restrict,
+constraint foreign key(target_id) references user(id) on delete restrict on update restrict
+)comment='用户喜欢数据表';
+
+/*访客记录表*/
+create table visitors(
+id int primary key auto_increment comment '编号',
+source_id int comment '访问者者编号',
+target_id int comment '被访者编号',
+created int comment '创建时间',
+updated int comment '更新时间',
+constraint foreign key(source_id) references user(id) on delete restrict on update restrict,
+constraint foreign key(target_id) references user(id) on delete restrict on update restrict
+)comment='访客数据表';
+
+/*举报记录表*/
+create table reports(
+id int primary key auto_increment comment '编号',
+source_id int comment '举报者编号',
+target_id int comment '被举报者编号',
+created int comment '创建时间',
+updated int comment '更新时间',
+constraint foreign key(source_id) references user(id) on delete restrict on update restrict,
+constraint foreign key(target_id) references user(id) on delete restrict on update restrict
+)comment='举报数据表';
+
+create table sticker_detail(
+id int primary key auto_increment comment '编号',
+sticker_id int comment '表情贴编号',
+img text comment '图片',
+created int comment '创建时间',
+updated int comment '更新时间'
+)comment='表情贴详情表';

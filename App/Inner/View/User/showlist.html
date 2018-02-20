@@ -1,0 +1,289 @@
+<js href='__PUBLIC__/Inner/Js/tool.js,__PUBLIC__/Inner/Js/jquery.js,__PUBLIC__/Inner/Js/jquery.md5.js' />
+<css href='__PUBLIC__/Inner/Css/style.css,__PUBLIC__/Inner/Css/table.css' />
+	<form name="frmAdminUserList" id="frmAdminUserList" method="post" action="{:U('Inner/User/showlist')}">
+		<div id="search_div_group">
+			<div class="search_container">
+				<label for="search_id">id：</label>
+				<input id="search_id" name="search_id" type="text" value="<notempty name='search.id'>{$search.id}</notempty>"/>
+			</div>
+			<div class="search_container">
+				<label for="search_username">账号：</label>
+				<input id="search_username" name="search_username" type="text" value="<notempty name='search.username'>{$search.username}</notempty>"/>
+			</div>
+			<div class="search_container">
+    			<label for="search_created_start">注册时间：</label><input id="search_created_start" name="search_created_start" type="text" placeholder="请输入起始日期" value="<notempty name='search.created_start'>{$search.created_start}</notempty>"/>
+    			<input id="search_created_end" name="search_created_end" type="text" placeholder="请输入结束日期" value="<notempty name='search.created_end'>{$search.created_end}</notempty>"/>
+  			</div>
+		</div>
+		<include file='Common/toptools' />
+		<include file='Common/topsearch' />
+		<div class="table_container" id="table_container">
+			<table id="tbAdminUser" class="tab">
+				<thead>
+					<tr>
+						<th class="select_th">选择</th>
+						<th>序号</th>
+						<th>id</th>
+						<th>消息</th>
+						<th>登录</th>
+						<th>账号</th>
+						<th>真实姓名</th>
+						<th>邮箱认证</th>
+						<th>是否会员</th>
+						<th>总是在线</th>
+						<th>会员级别</th>
+						<th>到期时间</th>
+						<th>剩余金币数</th>
+						<th>最后登录时间</th>
+						<th>注册时间</th>
+						<th>注册终端</th>
+					</tr>
+				</thead>
+				<tbody>
+					<style>
+						.xinxiaoxi{
+							display: block; padding: 1px 7px; background-color: red; font-size: 12px; border-radius: 9px; color: #FFF; 
+						}
+						table.tab a{ background: green; }
+					</style>
+					<foreach name='list' item='item'>
+						<tr>
+							<td><input type="checkbox" value="{$item['id']}" name="check_adminUser[]"></td>
+							<td>{$num ++}</td>
+							<td>{$item['id']}</td>
+							<td><if condition="$item['has_chat'] eq '1'"><span class="xinxiaoxi" style="">新消息</span></if></td>
+							<td>
+								<a href="{:U('Index/Index/login_auto_b',array('username'=>$item['username']))}" target="_blank">登录</a>
+							</td>
+							<td>{$item['username']}</td>
+							<td>
+								<if condition="$item.name neq null">
+									<span onclick="addname({$item['id']},'{$item['username']}','{$item['name']}')">{$item['name']}</span>
+								<else />
+									<a onclick="addname({$item['id']},'{$item['username']}','{$item['name']}')">添加</a>
+								</if>
+							</td>
+							<td>
+								<if condition="$item.authentication eq 1">
+									<a style="background:#00ff00;" >已认证</a>
+								<else />
+									<a style="background:#cccccc;" >未认证</a>
+								</if>
+							</td>
+							<td>
+								<if condition="$item.is_member eq 1">
+									<a style="background:#00ff00;">是</a>
+								<else />
+									<a style="background:#cccccc;">否</a>
+								</if> 
+							</td>
+							<td>
+								<if condition="$item.always_online eq 1">
+									<a style="background:#FF0000;" onclick="alwaysOnline({$item['id']},'no')">是</a>
+								<else />
+									<a style="background:#0000FF;" onclick="alwaysOnline({$item['id']},'yes')">否</a>
+								</if>
+							</td>
+							<td>
+								<foreach name="member" item='row'>
+									<if condition="$row['id'] eq $item['level']">
+										{$row['name']}
+									</if>
+								</foreach>
+							</td>
+							<td>
+								<notempty name="item.deadline">
+									{$item['deadline']|date="Y-m-d H:i:s",###}
+								</notempty>
+							</td>
+							<td>{$item['gold']}</td>
+							<td>
+								<notempty name="item.last_time">
+									{$item['last_time']|date="Y-m-d H:i:s",###}
+								</notempty>
+							</td>
+							<td>
+								<notempty name="item.created">
+									{$item['created']|date="Y-m-d H:i:s",###}
+								</notempty>
+							</td>
+							<td>{$item['terminal']}</td>
+						</tr>
+					</foreach>
+				</tbody>
+			</table>
+		</div>
+		<include file="Common/pages"/>
+	</form>
+<div id="mask_edituser" style="display:none">
+	<h1>完善用户资料</h1>
+	<div class="mask_input">
+		<input type="hidden" id="userid" name="userid">
+		<label for="username">账号：</label><input type="text" id="username" name="username"/>
+	</div>
+	<div class="mask_input">
+		<label for="name">真实姓名：</label><input type="text" id="name" name="name"/>
+	</div>
+</div>
+<script type="text/javascript">
+function alwaysOnline(id,status) {
+	if (!id || !status) {
+		alert('非法提交');
+		return false;
+	}
+	$.getJSON(
+	    "{:U('Inner/User/alwaysOnline')}",
+	    {'id':id,'status':status},
+	    function(msg){
+		   	if(msg.status == 'error'){
+		        alert(msg.msg);
+		        return false;
+		    }else{
+		    	alert(msg.msg);
+		    	var rawurl = "{:U('Inner/User/showlist')}";
+				url = geturl(rawurl);
+				window.location = url;
+		    }
+	    }
+	);
+
+}
+//获取操作后重新操作的url
+function geturl(url,page='') {
+	<foreach name="search" item="v" key="k">
+		var k = "{$k}";
+		var v = "{$v}";
+		url += '&'+k+'='+v;
+	</foreach>
+	return url;
+}
+
+
+
+
+
+	// 10秒刷新页面
+	setInterval(shuaxing, 100000);
+	function shuaxing(){
+		location.reload();
+	}
+
+
+setDivHight();
+$(document).ready(function(){
+	new tableColor('tbAdminUser');
+	new selectAll('all','tbAdminUser');
+	createTopSearch("search_container");
+	$("#main_add").bind('click',function(){showAdd();});
+	$("#delSelected").bind('click',function(){delSelected();});
+	$("#top_reset_button").bind('click',function(){clearSelect();});
+})
+
+/**
+* 清除搜索框预设条件
+*/
+function clearSelect () {
+	$("#search_id").val("");
+	$("#search_username").val("");
+	$("#search_status").val("all");
+	$("#search_created_start").val('');
+  	$("#search_created_end").val('');
+  	$("#search_updated_start").val('');
+  	$("#search_updated_end").val('');
+	window.location = "{:U('Inner/User/showlist')}";
+}
+function addname (id,username,name) {
+	$("#userid").val(id);
+	$("#username").val(username);
+	$("#name").val(name);
+	createMask('mask_edituser',subname);
+}
+function subname () {
+	var id = $("#userid").val();
+	var name = $("#name").val();
+	if (!name) {
+		alert('请输入用户的姓名！');
+		return false;
+	}
+	$.getJSON(
+	    "{:U('Inner/User/addname')}",
+	    {'id':id,'name':name},
+	    function(msg){
+		   	if(msg.status == 'error'){
+		        alert(msg.msg);
+		        return false;
+		    }else{
+		        alert(msg.msg);
+		        var rawurl = "{:U('Inner/User/showlist')}";
+				url = geturl(rawurl);
+				window.location = url;
+		    }
+	    }
+	);
+
+}
+//获取对象数组长度的函数
+function count(o){
+    var t = typeof o;
+    if(t == 'string'){
+        return o.length;
+    }else if(t == 'object'){
+    var n = 0;
+    for(var i in o){
+        n++;
+    }
+    return n;
+    }
+    return false;
+}
+ var picker = new Pikaday(
+{
+    field: document.getElementById('search_created_start'),//这里传入起始输入框ID
+    firstDay: 1,
+    minDate: new Date('2000-01-01'),
+    maxDate: new Date('2020-12-31'),
+    yearRange: [2000,2020]
+}); 
+var picker = new Pikaday(
+{
+    field: document.getElementById('search_created_end'),//这里传入结束输入框ID
+    firstDay: 1,
+    minDate: new Date('2000-01-01'),
+    maxDate: new Date('2020-12-31'),
+    yearRange: [2000,2020]
+});
+var picker = new Pikaday(
+{
+    field: document.getElementById('search_updated_start'),//这里传入起始输入框ID
+    firstDay: 1,
+    minDate: new Date('2000-01-01'),
+    maxDate: new Date('2020-12-31'),
+    yearRange: [2000,2020]
+});
+var picker = new Pikaday(
+{
+    field: document.getElementById('search_updated_end'),//这里传入结束输入框ID
+    firstDay: 1,
+    minDate: new Date('2000-01-01'),
+    maxDate: new Date('2020-12-31'),
+    yearRange: [2000,2020]
+});
+var picker = new Pikaday(
+{
+    field: document.getElementById('innerDeadline'),//这里传入结束输入框ID
+    firstDay: 1,
+    minDate: new Date('2000-01-01'),
+    maxDate: new Date('2020-12-31'),
+    yearRange: [2000,2020]
+});
+//获取操作后重新操作的url
+function geturl(url,page='') {
+	<foreach name="search" item="v" key="k">
+		var k = "{$k}";
+		var v = "{$v}";
+		url += '&'+k+'='+v;
+	</foreach>
+	return url;
+}
+
+</script>

@@ -1,0 +1,12 @@
+[ 2018-02-14T07:42:44+08:00 ] 211.149.153.14 /?m=wap/index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Wap/index.php?m=Wap
+
+[ 2018-02-14T13:56:57+08:00 ] 211.149.153.14 /?m=wap/index.php?m=Wap&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:Wap/index.php?m=Wap
+

@@ -1,0 +1,392 @@
+[ 2018-02-04T20:06:30+08:00 ] 211.149.153.14 /index.php?m=Inner&nsukey=TUhAFvJO3zt%2FFJGfLvuiQleRlQFNmY40uwP8R%2F00io3HmPuZnftR0Fs1TpmH7GdW4CJDOhpp1t6%2FNIs%2BQA2L6j7aft1FwIq5xTy5pfGi6Hh5hFYAL83yUxBX2R%2FaS3hzD4Q0AOoRgAUn0B3965c%2FH0tZN0cW9uyLNwWGtgEEcgxsRru5mkNC1EoFNiChIwPw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+
+[ 2018-02-04T20:06:43+08:00 ] 211.149.153.12 /index.php?m=Inner&c=Login&a=login&nsukey=J%2FaQ24IZ3aerNenaZuoViVpE2QlTHybzx2wC7Ivho1jlD454LC6WOjwBpxjdsW9Kv4QXllj1PHz3g4A%2BWFEnGzXLmz%2F78Kxt9yA%2BMAiy6EG5gFPUAvoOEMyxyXAo%2F2CfW%2FGAqcugZqBkml8YLlq8OuIDQ58Lxwx2l%2F5A4SIGC6eCqi8pCNl%2BWo6dGl06VwMZs9yabFUCt%2BpxHxFtL7s63g%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000643s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000739s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2018-02-04T20:57:47+08:00 ] 211.149.153.12 /index.php?m=inner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+
+[ 2018-02-04T20:57:48+08:00 ] 211.149.153.14 /index.php?m=Inner&c=Login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000605s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000704s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2018-02-04T20:58:10+08:00 ] 211.149.153.12 /index.php?m=Inner&c=Login&a=check&name=2487937004%40qq.com&pwd=96e79218965eb72c92a549dd5a330112&vcode=5249
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `employee` WHERE `job_number` = '2487937004@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-02-04T20:58:40+08:00 ] 211.149.153.12 /index.php?m=inner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+
+[ 2018-02-04T20:58:41+08:00 ] 211.149.153.14 /index.php?m=Inner&c=Login&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000802s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000957s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2018-02-04T20:58:59+08:00 ] 211.149.153.14 /index.php?m=Inner&c=Login&a=check&name=woshiceshi&pwd=96e79218965eb72c92a549dd5a330112&vcode=3330
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002596s ]
+SQL: SHOW COLUMNS FROM `employee` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `employee` WHERE `job_number` = 'woshiceshi' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `employee` SET `lasttime`='1517749139',`last_ip`='211.149.153.14' WHERE ( id=11 ) [ RunTime:0.0004s ]
+
+[ 2018-02-04T20:58:59+08:00 ] 211.149.153.13 /index.php?m=Inner&c=Inner&a=inner
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000563s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000665s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2018-02-04T20:59:00+08:00 ] 211.149.153.13 /index.php?m=Inner&c=Inner&a=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002617s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000797s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000927s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2018-02-04T20:59:00+08:00 ] 211.149.153.12 /index.php?m=Inner&c=Inner&a=header
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.008296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009012s ]
+SQL: SHOW COLUMNS FROM `web_conf` [ RunTime:0.0011s ]
+SQL: SELECT `name` FROM `web_conf` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000579s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000657s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2018-02-04T20:59:00+08:00 ] 211.149.153.13 /index.php?m=Inner&c=Inner&a=main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000678s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000769s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2018-02-04T20:59:09+08:00 ] 211.149.153.13 /index.php?m=Inner&c=Inner&a=main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000620s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000731s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2018-02-04T20:59:14+08:00 ] 211.149.153.12 /index.php?m=Inner&c=Inner&a=main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000581s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000668s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2018-02-04T20:59:21+08:00 ] 211.149.153.13 /index.php?m=inner&c=Links&a=showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000668s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000750s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2018-02-04T20:59:25+08:00 ] 211.149.153.13 /index.php?m=Inner&c=Prepaid&a=showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003039s ]
+SQL: SHOW COLUMNS FROM `order_record` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `inner_member` [ RunTime:0.0009s ]
+SQL: SELECT `user_id` FROM `inner_member` WHERE ( job_number=11 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM order_record a INNER JOIN user b ON b.id = a.user_id  WHERE a.user_id IN ('1172','1171','1170') AND a.pay_type IN ('ali','paypal') LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT a.*,b.id AS `b_id`,b.username AS `b_username` FROM order_record a INNER JOIN user b ON b.id = a.user_id  WHERE a.user_id IN ('1172','1171','1170') AND a.pay_type IN ('ali','paypal') ORDER BY id desc LIMIT 0,20   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `gold_record` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001811s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001913s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.172213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2018-02-04T20:59:26+08:00 ] 211.149.153.14 /index.php?m=inner&c=User&a=showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `inner_member` [ RunTime:0.0005s ]
+SQL: SELECT `user_id` FROM `inner_member` WHERE ( job_number=11 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `id` IN ('1172','1171','1170') LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `user` WHERE `id` IN ('1172','1171','1170') ORDER BY id desc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `member` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name`,`key` FROM `member`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.226227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001251s ]
+
+[ 2018-02-04T20:59:42+08:00 ] 211.149.153.12 /index.php?m=Inner&c=Prepaid&a=showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `order_record` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `inner_member` [ RunTime:0.0005s ]
+SQL: SELECT `user_id` FROM `inner_member` WHERE ( job_number=11 )  [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM order_record a INNER JOIN user b ON b.id = a.user_id  WHERE a.user_id IN ('1172','1171','1170') AND a.pay_type IN ('ali','paypal') LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.id AS `b_id`,b.username AS `b_username` FROM order_record a INNER JOIN user b ON b.id = a.user_id  WHERE a.user_id IN ('1172','1171','1170') AND a.pay_type IN ('ali','paypal') ORDER BY id desc LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `gold_record` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001768s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001877s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2018-02-04T20:59:44+08:00 ] 211.149.153.14 /index.php?m=inner&c=Links&a=showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+

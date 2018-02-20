@@ -1,0 +1,17 @@
+
+*{margin:0;padding:0;border:0 none;outline:none;text-decoration:none;font-family:Microsoft Yahei, "Arial Black", Gadget, sans-serif;}
+html{width:100%;height:100%;min-width:1100px;background:url(../Images/4.jpg) center center no-repeat;background-size:100% 100%;}
+body{text-align:center;width:100%;}
+.form_div{position:static;width:300px;height:320px;top:50%;left:50%;margin:150px auto;border:1px solid #356C81;border-radius:5px;font-family:Arial, Helvetica, sans-serif;background:rgba(0,0,0,0);text-align:center;box-shadow:0 1px 5px #fff;}
+
+.form_div h1{margin-top:30px;color:#1F271C;font-size:30px;}
+.input_div,.cap_div{width:260px;height:35px;margin:20px auto;border:1px solid #356C81;box-shadow:0 1px 5px #fff;}
+.input_div label,.cap_div label{display:inline-block;width:80px;height:35px;line-height:35px;float:left;color:#1F271C;}
+.input_div input,.cap_div input{display:inline-block;width:140px;height:35px;line-height:35px;float:left;padding:0 20px;display:inline;font-size:16px;font-weight:lighter;background:transparent;color:#000;}
+.cap_div input{width:60px;background:transparent;}
+.cap_img_div{width:80px;height:35px;float:left;display:inline;}
+.cap_img_div img{width:80px;height:35px;}
+.sub_div{width:260px;height:35px;margin:20px auto;}
+.sub_div input{display:block;width:100px;height:35px;background:#58531C;color:#fff;text-align:center;line-height:35px;border-radius:5px;float:right;font-size:14px;font-weight:normal;cursor:pointer;font-family:Microsoft Yahei;box-shadow:0 1px 5px #fff;}
+.sub_div label{line-height:35px;font-family:impact;color:#fff;text-shadow:0 1px 3px #9F0;}
+.sub_div input:hover{box-shadow:0 5px 50px #fff;}

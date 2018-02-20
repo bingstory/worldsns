@@ -1,0 +1,130 @@
+.gwx_photo_cutter_outer {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.gwx_photo_cutter_tip {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.gwx_photo_cutter_mask {
+    position: absolute;
+    -moz-user-select:none;
+}
+
+.gwx_photo_cutter_mask_sub {
+    background:black;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    position: absolute;
+    font-size: 0;
+}
+
+.gwx_photo_cutter_mask_north {
+    width: 100%;
+}
+
+.gwx_photo_cutter_mask_south {
+    width: 100%;
+    bottom: 0;
+}
+
+.gwx_photo_cutter_mask_east {
+    right: 0;
+}
+
+.gwx_photo_cutter_photo {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+/*.gwx_photo_cutter_preview_outer{
+    overflow: hidden;
+}*/
+
+.gwx_photo_cutter_center {
+    position: absolute;
+    font-size: 0;
+    border: 1px dotted #0066FF;
+    padding: 0;
+    margin: 0;
+}
+.gwx_photo_cutter_fake {
+    cursor: move;
+    background-color: #000000;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    height: 100%;
+}
+.gwx_photo_cutter_block {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    border:1px solid #0066FF;
+    background:#12CBFA;
+}
+
+.gwx_photo_cutter_block_0 {
+    left: 0;
+    top: 0;
+    cursor: se-resize;
+    border-top: none;
+    border-left: none;
+
+}
+
+.gwx_photo_cutter_block_1 {
+    top: 0;
+    cursor: s-resize;
+    border-top: none;
+}
+
+.gwx_photo_cutter_block_2 {
+    cursor: ne-resize;
+    right: 0;
+    top: 0;
+    border-top: none;
+    border-right: none;
+}
+
+.gwx_photo_cutter_block_3 {
+    cursor: w-resize;
+    border-left: none;
+}
+
+.gwx_photo_cutter_block_4 {
+    cursor: e-resize;
+    right: 0;
+    border-right: none;
+}
+
+.gwx_photo_cutter_block_5 {
+    cursor: ne-resize;
+    left: 0;
+    bottom: 0;
+    border-bottom: none;
+    border-left: none;
+}
+
+.gwx_photo_cutter_block_6 {
+    cursor: s-resize;
+    bottom: 0;
+    border-bottom: none;
+}
+
+.gwx_photo_cutter_block_7 {
+    cursor: se-resize;
+    right: 0;
+    bottom: 0;
+    border-bottom: none;
+    border-right: none;
+}
+
+
+

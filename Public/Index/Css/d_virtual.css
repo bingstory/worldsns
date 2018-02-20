@@ -1,0 +1,101 @@
+@import "public.css";
+
+.panel {
+    margin: 25px;
+    overflow: hidden;
+}
+
+.tab {
+    /*background-color: #FFF0F4;*/
+    background-image: -moz-linear-gradient(bottom, #F5F5F5, #FFFFFF);
+    background-image: -webkit-linear-gradient(bottom, #F5F5F5, #FFFFFF); /*chrome*/
+    background-image: -ms-linear-gradient(bottom, #F5F5F5, #FFFFFF); /*IE10+*/
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FFFFFF", EndColorStr="#F5F5F5"); /*ie6-9*/
+    border: 1px solid #d3d3d3;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 35px;
+}
+
+.tab_item {
+    padding: 0 20px;
+    min-width: 50px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid #d3d3d3;
+    float: left;
+}
+
+.tab_item:hover {
+    text-decoration: underline;
+}
+
+.tab_focus {
+    height: 36px;
+    line-height: 36px;
+    background-color: white;
+    color: #483D8B;
+    font-weight: bolder;
+    /*background: url("img/shoucang.png") no-repeat scroll 65px -343px;*/
+}
+
+.list {
+    background-color: white;
+    height: 285px;
+    overflow-y: scroll;
+    border: 1px solid #d3d3d3;
+    border-top: 0;
+    display: none;
+}
+
+.words {
+    margin-top: 25px;
+}
+
+.words label {
+    background-color: #EFB934;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.words input {
+    line-height: 28px;
+    height: 28px;
+    width: 547px;
+    font-size: 13px;
+    border: 1px solid #d3d3d3;
+    float: right;
+    color: #9C9C9C;
+}
+
+.item {
+    float: left;
+    width: 80px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.item_img {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.item_img_hover {
+    border: 5px solid #e7ebe4;
+}
+
+.item_focus {
+    border: 5px solid #EFB934;
+}

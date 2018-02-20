@@ -1,0 +1,61 @@
+@charset "utf-8";/* CSS Document */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    color: #3E3E3E;
+    /*background-color: #fafbfb;*/
+    background-color: #F5F5F5;
+    font-family: "Helvetica", "微软雅黑", Tohoma, serif;
+}
+
+.wrp {
+    margin: 0 auto;
+    width: 1100px;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.head {
+    width: 100%;
+    min-width: 1100px;
+    height: 59px;
+    background-color: #2d57a1;
+}
+
+.head a {
+    text-decoration: none;
+}
+
+.head_logo {
+    width: 180px;
+    height: 45px;
+    float: left;
+    background: url("img/login.png") 0 0;
+    margin-top: 8px;
+}
+
+#head_login {
+    font-size: 13px;
+    margin-top: 15px;
+    float: right;
+    height: 23px;
+    line-height: 23px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 0 13px;
+    outline-style: none;
+    background-color: #43abf2;
+}
+
+#head_login:hover {
+    background-color: #3acdf2;
+}
+

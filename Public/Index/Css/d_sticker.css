@@ -1,0 +1,89 @@
+/* CSS Document */
+
+
+@import "public.css";
+
+.panel {
+    margin: 0;
+    overflow: hidden;
+}
+
+.banner {
+    width: 600px;
+    height: 135px;
+    margin: 0 auto;
+    background: url("../Images/banner_sticker.jpg");
+}
+
+.close {
+    width: 40px;
+    height: 30px;
+    margin-top: -128px;
+    margin-right: -8px;
+    cursor: pointer;
+    float: right;
+    background: url("../Images/close2.png") no-repeat;
+}
+
+.close:hover {
+    margin-top: -127px;
+}
+
+.list {
+    margin-bottom: 15px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 450px;
+}
+
+.item {
+    width: 268px;
+    float: left;
+    margin: 15px 0 0 15px;
+    border: 1px solid #E0E0E0;
+    background: #ffffff;
+}
+
+.item_banner {
+    width: 268px;
+    height: 134px;
+    overflow: hidden;
+}
+
+.item_banner img {
+    max-height: 134px;
+}
+
+.item_name {
+    float: left;
+    width: 120px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.item_bar {
+    line-height: 25px;
+    overflow: hidden;
+    clear: both;
+    margin-top: 10px;
+    padding: 0 10px 10px 10px;
+}
+
+.item_button {
+    height: 23px;
+    line-height: 23px;
+    min-width: 53px;
+    float: right;
+    padding: 0 5px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #1CA536;
+    background: #1DBF3C;
+}
+
+.item_button:hover {
+    background-color: #1AA734;
+}

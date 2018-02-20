@@ -1,0 +1,118 @@
+@charset "utf-8";/* CSS Document */
+@import "public.css";
+
+body {
+    padding: 20px 0 0;
+}
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    line-height: 35px;
+}
+
+td div{
+    padding-left: 10px;
+}
+
+
+.caption {
+    line-height: 25px;
+    text-align: left;
+    border-bottom: 1px solid #E9E9E9;
+    padding: 5px 10px;
+    background-color: #F0F0F0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.btn {
+    float: right;
+    cursor: pointer;
+    padding: 0 10px;
+    height: 25px;
+    display: none;
+    font-size: 12px;
+    outline: none;
+}
+
+.btn_trans {
+    color: #828282;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.btn_edit {
+    color: #828282;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.btn_edit:hover {
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid #E9E9E9;
+}
+
+.panel {
+    width: 485px;
+    overflow: hidden;
+    border: 1px solid #E9E9E9;
+}
+
+.base {
+    padding: 5px 10px;
+    background-color: white;
+}
+
+#about_look {
+    line-height: 23px;;
+    height: 91px;
+    padding: 5px 10px;
+    overflow-y: auto
+}
+
+#about {
+    width: 480px;
+    height: 101px;
+    overflow: auto;
+    border: none;
+    outline: none;
+    background: #F3F6F9;
+    line-height: 25px;
+    resize: none;
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+.base input {
+    border: 1px solid #F0f0f0;
+    outline: none;
+    background: #F3F6F9;
+    line-height: 25px;
+    height: 25px;
+    width: 276px;
+    padding: 0 3px;
+    margin-left: 10px;
+}
+
+.base select {
+    border: 1px solid #F0f0f0;
+    outline: none;
+    background: #F3F6F9;
+    height: 30px;
+    width: 284px;
+    padding: 5px 0;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#birth select {
+    width: 86px;
+}
+

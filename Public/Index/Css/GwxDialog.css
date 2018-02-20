@@ -1,0 +1,200 @@
+.gwx_dialog_mask {
+    position: fixed;
+    height: 1100px;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    /*background-color: #303030;*/
+    /*filter: alpha(opacity=95);
+    -moz-opacity: 0.95;
+    opacity: 0.95;*/
+}
+
+.gwx_dialog_win_outer {
+    /*height: 1100px;*/
+    height: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.gwx_dialog_tip {
+    box-shadow: 4px 3px 10px 3px #999;;
+    overflow: hidden;
+    padding: 6px 0 6px 10px;
+    text-align: center;
+    margin: 0 auto;
+    /*background: #808080;
+    border: 1px solid #7c7c7f;*/
+    display: inline-block;
+    background: #F3F3F3;
+    color: #333333;
+    border-radius: 3px;
+    border: 1px solid #7a7a7a;
+}
+
+.gwx_dialog_tip_img {
+    /*background: url("tip.png") no-repeat -32px 0;*/
+    background: url("../Images/tip.png") no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.gwx_dialog_tip_img_right {
+    background-position: -32px 0;
+}
+
+.gwx_dialog_tip_text {
+    display: inline-block;
+    float: left;
+    min-width: 60px;
+    text-align: center;
+    line-height: 20px;
+    padding: 0 8px;
+}
+
+.gwx_dialog_win {
+    /*border: 1px solid #4D6FB4;*/
+    /*border-radius: 5px;*/
+    margin: 0 auto;
+    /*box-shadow: 3px 3px 3px 3px #006a7f;*/
+    /*box-shadow: 2px 3px 5px 3px #5F5F5F;*/
+    /*box-shadow: 2px 3px 10px 3px #232323;*/
+    box-shadow: 0 0 20px black;
+}
+
+.gwx_dialog_north {
+    color: white;
+    height: 45px;
+    line-height: 45px;
+    text-align: left;
+    text-indent: 10px;
+    border-bottom: 1px solid #4D6FB4;
+    border-radius: 5px 5px 0 0;
+    background-image: -moz-linear-gradient(center bottom, #6187D3, #7193D6);
+    background-image: -webkit-linear-gradient(bottom, #6187D3, #7193D6); /*chrome*/
+    background-image: -ms-linear-gradient(bottom, #6187D3, #7193D6); /*IE10+*/
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#7193D6", EndColorStr="#6187D3"); /*ie6-9*/
+}
+
+.gwx_dialog_north span {
+    float: left;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.gwx_dialog_close {
+    float: right;
+    width: 40px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: url("../Images/close.png") no-repeat;
+}
+
+.gwx_dialog_close_hover {
+    background-position: 0 -30px;
+}
+
+.gwx_dialog_ifm {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.gwx_dialog_ifm_loading {
+    position: fixed;
+    background: url("../Images/loading.gif") white no-repeat center 40%;
+}
+
+.gwx_dialog_south {
+    height: 45px;
+    text-align: right;
+    overflow: hidden;
+    /*background-color: #FFF0F4;*/
+    background-color: #e6e9ee;
+    border-top: 1px solid #dbdbdb;
+    border-radius: 0 0 5px 5px;
+    margin-top: -4px;
+}
+
+.gwx_dialog_btn {
+    height: 30px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 0 25px;
+    /*padding: 0 10px;*/
+    /**padding: 0 10px;*/
+    border-radius: 3px;
+    outline-style: none;
+    font-family: "Helvetica", "微软雅黑", Tohoma, serif;
+}
+
+.gwx_dialog_btn_gray {
+    color: #545454;
+    border: 1px solid #B3B3B3;
+    background-image: -moz-linear-gradient(bottom, #E4E4E4, #FAFAFA); /*firefox*/
+    background-image: -webkit-linear-gradient(bottom, #E4E4E4, #FAFAFA); /*chrome*/
+    background-image: -ms-linear-gradient(bottom, #E4E4E4, #FAFAFA); /*IE10+*/
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FAFAFA", EndColorStr="#E4E4E4"); /*ie6-9*/
+}
+
+.gwx_dialog_btn_gray_hover {
+    background-image: -moz-linear-gradient(bottom, #FAFAFA, #E4E4E4); /*firefox*/
+    background-image: -webkit-linear-gradient(bottom, #FAFAFA, #E4E4E4); /*chrome*/
+    background-image: -ms-linear-gradient(bottom, #FAFAFA, #E4E4E4); /*IE10+*/
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#E4E4E4", EndColorStr="#FAFAFA"); /*ie6-9*/
+}
+
+.gwx_dialog_btn_blue {
+    color: white;
+    border: 1px solid #4D6FB4;
+    background-image: -moz-linear-gradient(bottom, #5073b0, #7a9de2); /*firefox*/
+    background-image: -webkit-linear-gradient(bottom, #5073b0, #7a9de2); /*chrome*/
+    background-image: -ms-linear-gradient(bottom, #5073b0, #7a9de2); /*IE10+*/
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#7a9de2", EndColorStr="#5073b0"); /*ie6-9*/
+}
+
+.gwx_dialog_btn_blue_hover {
+    background-image: -moz-linear-gradient(bottom, #7a9de2, #5073b0); /*firefox*/
+    background-image: -webkit-linear-gradient(bottom, #7a9de2, #5073b0); /*chrome*/
+    background-image: -ms-linear-gradient(bottom, #7a9de2, #5073b0); /*IE10+*/
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#5073b0", EndColorStr="#7a9de2"); /*ie6-9*/
+}
+
+.gwx_dialog_ifm_words {
+    float: left;
+    padding: 4px 3px 3px 10px
+}
+
+.gwx_dialog_ifm_words input {
+    height: 20px;
+    line-height: 20px;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
+
+.gwx_dialog_win_photo {
+    padding: 10px;
+    background: white;
+    overflow: hidden;
+}
+
+.gwx_dialog_win_photo img {
+    border-bottom: 1px solid #E0E0E0;
+    vertical-align: middle;
+}
+
